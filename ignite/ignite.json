@@ -1,0 +1,13 @@
+{
+  "createdWith": "2.1.0",
+  "boilerplate": "Electronite",
+  "generators": {
+    "component": "ignite-kryptonite",
+    "container": "ignite-kryptonite",
+    "crudsaga": "ignite-kryptonite",
+    "crudredux": "ignite-kryptonite",
+    "saga": "ignite-kryptonite",
+    "redux": "ignite-kryptonite",
+    "screen": "ignite-kryptonite"
+  }
+}
