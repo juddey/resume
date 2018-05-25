@@ -1,5 +1,5 @@
 import React from 'react'
-// import { AComponentName } from '../Components'
+import { Header } from '../Components'
 import { connect } from 'react-redux'
 import { injectIntl } from 'react-intl'
 // Add Actions - replace 'Your' with whatever your reducer is called :)
@@ -18,7 +18,7 @@ export class RootScreen extends React.Component {
   render () {
     return (
       <div style={{ flex: 1 }}>
-        <div>Hello There.</div>
+        <Header />
       </div>
     )
   }
