@@ -1,7 +1,7 @@
 {
   "createdWith": "2.1.0",
   "boilerplate": "Electronite",
-  "test": true,
+  "tests": true,
   "generators": {
     "component": "ignite-kryptonite",
     "container": "ignite-kryptonite",

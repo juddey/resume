@@ -16,6 +16,7 @@
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.2.2",
     "react-router-transition": "^1.2.1",
+    "react-scripts": "1.1.4",
     "redux": "^4.0.0",
     "redux-persist": "^5.4.0",
     "redux-saga": "^0.16.0",
@@ -33,13 +34,13 @@
     "lint": "prettier-standard 'src/**/*.js'"
   },
   "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "format-json": "^1.0.3",
     "husky": "^0.14.3",
     "ignite-kryptonite": "file:/home/justin/projects/reactjs/ignite-kryptonite",
-    "jest": "^23.0.0",
     "lint-staged": "^4.0.1",
     "prettier-standard": "^8.0.1",
-    "react-scripts": "1.1.0",
     "react-test-renderer": "^16.4.0",
     "reactotron-react-js": "^1.13.0",
     "redux-mock-store": "1.4.0"
