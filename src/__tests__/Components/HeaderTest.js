@@ -8,11 +8,11 @@ import Header from '../../Components/Header'
 const div = document.createElement('div')
 const wrapper = shallowWithIntl(<Header />)
 
-it('component exists', () => {
+test('component exists really', () => {
   expect(wrapper.length).toBe(1)
 })
 
-it('component structure', () => {
+test('component structure', () => {
   expect(wrapper.name()).toEqual('div')
   expect(wrapper.children().length).toEqual(1)
   expect(
@@ -29,7 +29,7 @@ it('component structure', () => {
   ).toEqual(true)
 })
 
-it('renders to snapshot', () => {
+test('renders to snapshot', () => {
   const tree = createComponentWithIntl(<Header />, div).toJSON()
   expect(tree).toMatchSnapshot()
 })

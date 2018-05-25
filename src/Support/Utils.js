@@ -1,8 +1,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 import { IntlProvider, intlShape } from 'react-intl'
-import { mount, shallow } from 'enzyme'
-import Enzyme from 'enzyme'
+import Enzyme, { mount, shallow } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
 Enzyme.configure({ adapter: new Adapter() })
 
