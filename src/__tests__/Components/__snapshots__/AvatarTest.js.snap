@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders to snapshot 1`] = `
+<div
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <div
+    className="MuiAvatar-root-1"
+    style={
+      Object {
+        "height": 60,
+        "width": 60,
+      }
+    }
+  >
+    <img
+      alt="juddey"
+      className="MuiAvatar-img-3"
+      sizes={undefined}
+      src="avatar.jpg"
+      srcSet={undefined}
+    />
+  </div>
+</div>
+`;
