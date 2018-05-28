@@ -3972,8 +3972,9 @@ ieee754@^1.1.4:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.11.tgz#c16384ffe00f5b7835824e67b6f2bd44a5229455"
 
-"ignite-kryptonite@file:../ignite-kryptonite":
+"ignite-kryptonite@git://github.com/juddey/ignite-kryptonite":
   version "0.1.1"
+  resolved "git://github.com/juddey/ignite-kryptonite#17fb015fce8699f841ca9cfad232c38f33572847"
 
 ignore-walk@^3.0.1:
   version "3.0.1"
