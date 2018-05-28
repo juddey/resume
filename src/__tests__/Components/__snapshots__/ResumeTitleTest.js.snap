@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders to snapshot 1`] = `
+<h1
+  className="MuiTypography-root-1 MuiTypography-headline-6"
+>
+  Justin Lane
+</h1>
+`;
