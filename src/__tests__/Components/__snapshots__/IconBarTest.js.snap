@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders to snapshot 1`] = `
+<div
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 15,
+    }
+  }
+>
+  <div>
+    IconBar Component
+  </div>
+</div>
+`;
