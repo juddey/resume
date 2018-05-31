@@ -1,0 +1,659 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders to snapshot 1`] = `
+<div
+  style={
+    Object {
+      "flex": 1,
+      "fontFamily": "Roboto",
+    }
+  }
+>
+  <div>
+    <section
+      style={
+        Object {
+          "fontSize": "80%",
+          "fontWeight": 300,
+          "margin": "0 auto",
+          "padding": "10px 0",
+          "position": "relative",
+          "width": "95%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "background": "#a0b2b8",
+            "content": "",
+            "height": "100%",
+            "left": "16px",
+            "position": "absolute",
+            "top": 0,
+            "width": 2,
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "margin": "10px 0",
+            "paddingLeft": 45,
+            "position": "relative",
+            "textAlign": "left",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "background": "#e9f0f5",
+              "border": "2px solid #6fba1c",
+              "borderRadius": "50%",
+              "display": "flex",
+              "height": 30,
+              "left": 0,
+              "marginLeft": 1,
+              "position": "absolute",
+              "top": 0,
+              "width": 30,
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "alignItems": "center",
+                "alignSelf": "center",
+                "display": "flex",
+                "height": 32,
+                "justifyContent": "center",
+                "position": "relative",
+                "width": 32,
+              }
+            }
+          >
+            <svg
+              className="mdi-icon "
+              fill="#6fba1c"
+              height={24}
+              viewBox="0 0 24 24"
+              width={24}
+            >
+              <path
+                d="M13,2V10H21C21,5.58 17.42,2 13,2M19.32,15.89C20.37,14.54 21,12.84 21,11H6.44L5.5,9H2V11H4.22C4.22,11 6.11,15.07 6.34,15.42C5.24,16 4.5,17.17 4.5,18.5C4.5,20.43 6.07,22 8,22C9.76,22 11.22,20.7 11.46,19H13.54C13.78,20.7 15.24,22 17,22C18.93,22 20.5,20.43 20.5,18.5C20.5,17.46 20.04,16.53 19.32,15.89M8,20C7.17,20 6.5,19.33 6.5,18.5C6.5,17.67 7.17,17 8,17C8.83,17 9.5,17.67 9.5,18.5C9.5,19.33 8.83,20 8,20M17,20C16.17,20 15.5,19.33 15.5,18.5C15.5,17.67 16.17,17 17,17C17.83,17 18.5,17.67 18.5,18.5C18.5,19.33 17.83,20 17,20Z"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          style={
+            Object {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "boxShadow": "rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "borderColor": "transparent",
+                "borderLeftColor": "#ffffff",
+                "left": "100%",
+                "top": 24,
+              }
+            }
+          />
+          <div
+            style={
+              Object {
+                "backgroundColor": "#7BB1EA",
+                "color": "#fff",
+                "padding": 10,
+              }
+            }
+          >
+            <div
+              style={Object {}}
+            >
+              Founder: tiaki.care
+            </div>
+            <div
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": "85%",
+                  "marginTop": 2,
+                }
+              }
+            >
+              2015 - now
+            </div>
+            <div
+              style={
+                Object {
+                  "float": "right",
+                  "marginTop": -20,
+                  "textAlign": "right",
+                }
+              }
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "lineHeight": 1.6,
+                "marginBottom": "1em",
+                "minHeight": 40,
+                "padding": 10,
+              }
+            }
+          >
+            <p>
+              My latest venture, combining education, technology and process improvement.
+            </p>
+            <div
+              className="MuiChip-root-1"
+              onClick={undefined}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={-1}
+            >
+              <span
+                className="MuiChip-label-6"
+              >
+                React Native
+              </span>
+            </div>
+            <div
+              className="MuiChip-root-1"
+              onClick={undefined}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={-1}
+            >
+              <span
+                className="MuiChip-label-6"
+              >
+                React
+              </span>
+            </div>
+            <div
+              className="MuiChip-root-1"
+              onClick={undefined}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={-1}
+            >
+              <span
+                className="MuiChip-label-6"
+              >
+                Elixir
+              </span>
+            </div>
+            <div
+              className="MuiChip-root-1"
+              onClick={undefined}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={-1}
+            >
+              <span
+                className="MuiChip-label-6"
+              >
+                Ruby
+              </span>
+            </div>
+            <div
+              className="MuiChip-root-1"
+              onClick={undefined}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={-1}
+            >
+              <span
+                className="MuiChip-label-6"
+              >
+                AWS
+              </span>
+            </div>
+            <div
+              style={
+                Object {
+                  "clear": "both",
+                  "content": "",
+                  "display": "table",
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "clear": "both",
+              "content": "",
+              "display": "table",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px 0",
+            "paddingLeft": 45,
+            "position": "relative",
+            "textAlign": "left",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "background": "#e9f0f5",
+              "border": "2px solid #6fba1c",
+              "borderRadius": "50%",
+              "display": "flex",
+              "height": 30,
+              "left": 0,
+              "marginLeft": 1,
+              "position": "absolute",
+              "top": 0,
+              "width": 30,
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "alignItems": "center",
+                "alignSelf": "center",
+                "display": "flex",
+                "height": 32,
+                "justifyContent": "center",
+                "position": "relative",
+                "width": 32,
+              }
+            }
+          >
+            <svg
+              className="mdi-icon "
+              fill="#6fba1c"
+              height={24}
+              viewBox="0 0 24 24"
+              width={24}
+            >
+              <path
+                d="M22,9V7H20V5C20,3.9 19.1,3 18,3H4C2.9,3 2,3.9 2,5V19C2,20.1 2.9,21 4,21H18C19.1,21 20,20.1 20,19V17H22V15H20V13H22V11H20V9H22M18,19H4V5H18V19M6,13H11V17H6V13M12,7H16V10H12V7M6,7H11V12H6V7M12,11H16V17H12V11Z"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          style={
+            Object {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "boxShadow": "rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "borderColor": "transparent",
+                "borderLeftColor": "#ffffff",
+                "left": "100%",
+                "top": 24,
+              }
+            }
+          />
+          <div
+            style={
+              Object {
+                "backgroundColor": "#7BB1EA",
+                "color": "#fff",
+                "padding": 10,
+              }
+            }
+          >
+            <div
+              style={Object {}}
+            >
+              Founder: kandid.nz
+            </div>
+            <div
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": "85%",
+                  "marginTop": 2,
+                }
+              }
+            >
+              2014 - 2015
+            </div>
+            <div
+              style={
+                Object {
+                  "float": "right",
+                  "marginTop": -20,
+                  "textAlign": "right",
+                }
+              }
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "lineHeight": 1.6,
+                "marginBottom": "1em",
+                "minHeight": 40,
+                "padding": 10,
+              }
+            }
+          >
+            <p>
+              Co-Founder for a new Developer Sourcing Tool designed to improve the process for recruiting and hiring software developers.
+            </p>
+            <div
+              className="MuiChip-root-1"
+              onClick={undefined}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={-1}
+            >
+              <span
+                className="MuiChip-label-6"
+              >
+                AngularJS
+              </span>
+            </div>
+            <div
+              className="MuiChip-root-1"
+              onClick={undefined}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={-1}
+            >
+              <span
+                className="MuiChip-label-6"
+              >
+                Ruby
+              </span>
+            </div>
+            <div
+              className="MuiChip-root-1"
+              onClick={undefined}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={-1}
+            >
+              <span
+                className="MuiChip-label-6"
+              >
+                Ruby on Rails
+              </span>
+            </div>
+            <div
+              style={
+                Object {
+                  "clear": "both",
+                  "content": "",
+                  "display": "table",
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "clear": "both",
+              "content": "",
+              "display": "table",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px 0",
+            "marginBottom": 50,
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "background": "#e9f0f5",
+              "border": "2px solid #6fba1c",
+              "borderRadius": "50%",
+              "display": "flex",
+              "height": 30,
+              "marginLeft": 1,
+              "position": "absolute",
+              "top": 0,
+              "width": 30,
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "alignItems": "center",
+                "alignSelf": "center",
+                "display": "flex",
+                "height": 32,
+                "justifyContent": "center",
+                "position": "relative",
+                "width": 32,
+              }
+            }
+          >
+            <svg
+              className="mdi-icon "
+              fill="#000"
+              height={24}
+              viewBox="0 0 24 24"
+              width={24}
+            >
+              <path
+                d="M2,12L12,3L22,12H19V20H5V12H2M12,18L12.72,17.34C15.3,15 17,13.46 17,11.57C17,10.03 15.79,8.82 14.25,8.82C13.38,8.82 12.55,9.23 12,9.87C11.45,9.23 10.62,8.82 9.75,8.82C8.21,8.82 7,10.03 7,11.57C7,13.46 8.7,15 11.28,17.34L12,18Z"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          style={
+            Object {
+              "marginTop": "9px",
+              "paddingLeft": 45,
+              "position": "absolute",
+              "textAlign": "left",
+              "top": "50%",
+            }
+          }
+        >
+          <div>
+            Taking a break for children
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "clear": "both",
+              "content": "",
+              "display": "table",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "margin": "10px 0",
+            "paddingLeft": 45,
+            "position": "relative",
+            "textAlign": "left",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "background": "#e9f0f5",
+              "border": "2px solid #6fba1c",
+              "borderRadius": "50%",
+              "display": "flex",
+              "height": 30,
+              "left": 0,
+              "marginLeft": 1,
+              "position": "absolute",
+              "top": 0,
+              "width": 30,
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "alignItems": "center",
+                "alignSelf": "center",
+                "display": "flex",
+                "height": 32,
+                "justifyContent": "center",
+                "position": "relative",
+                "width": 32,
+              }
+            }
+          >
+            <svg
+              className="mdi-icon "
+              fill="#6fba1c"
+              height={24}
+              viewBox="0 0 24 24"
+              width={24}
+            >
+              <path
+                d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          style={
+            Object {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "boxShadow": "rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "borderColor": "transparent",
+                "borderLeftColor": "#ffffff",
+                "left": "100%",
+                "top": 24,
+              }
+            }
+          />
+          <div
+            style={
+              Object {
+                "backgroundColor": "#7BB1EA",
+                "color": "#fff",
+                "padding": 10,
+              }
+            }
+          >
+            <div
+              style={Object {}}
+            >
+              Various Educational Institutions
+            </div>
+            <div
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": "85%",
+                  "marginTop": 2,
+                }
+              }
+            >
+              2012 & prior
+            </div>
+            <div
+              style={
+                Object {
+                  "float": "right",
+                  "marginTop": -20,
+                  "textAlign": "right",
+                }
+              }
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "lineHeight": 1.6,
+                "marginBottom": "1em",
+                "minHeight": 40,
+                "padding": 10,
+              }
+            }
+          >
+            <p>
+              Provided Process Improvement, Business Analysis, Software Design and System Design and Development Services for 
+              <a
+                href="https://en.wikipedia.org/wiki/PeopleSoft"
+                target="#_blank"
+              >
+                 PeopleSoft
+              </a>
+               Customers.
+            </p>
+            <div
+              style={
+                Object {
+                  "clear": "both",
+                  "content": "",
+                  "display": "table",
+                }
+              }
+            />
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "clear": "both",
+              "content": "",
+              "display": "table",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "clear": "both",
+            "content": "",
+            "display": "table",
+          }
+        }
+      />
+    </section>
+  </div>
+</div>
+`;

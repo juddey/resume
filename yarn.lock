@@ -7917,6 +7917,12 @@ react-event-listener@^0.5.9:
     prop-types "^15.6.0"
     warning "^3.0.0"
 
+react-event-timeline@^1.5.3:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/react-event-timeline/-/react-event-timeline-1.5.3.tgz#1a79651257f92065b1f86624cdb40802436e8cab"
+  dependencies:
+    prop-types "^15.6.0"
+
 react-fuzzy@^0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/react-fuzzy/-/react-fuzzy-0.5.2.tgz#fc13bf6f0b785e5fefe908724efebec4935eaefe"
