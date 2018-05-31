@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders to snapshot 1`] = `
+<h2
+  className="MuiTypography-root-1 MuiTypography-title-7"
+>
+  Section Title Component
+</h2>
+`;
