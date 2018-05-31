@@ -49,7 +49,7 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "format-json": "^1.0.3",
     "husky": "^0.14.3",
-    "ignite-kryptonite": "git://github.com/juddey/ignite-kryptonite",
+    "ignite-kryptonite": "git://github.com/juddey/ignite-kryptonite#master",
     "lint-staged": "^4.0.1",
     "prettier-standard": "^8.0.1",
     "react-test-renderer": "^16.4.0",
