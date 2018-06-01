@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders to snapshot 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "fontFamily": "Roboto",
+      }
+    }
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-2-29"
+    >
+      <p
+        className="MuiTypography-root-92 MuiTypography-body1-101"
+      >
+         
+        React Native
+      </p>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-10-37"
+    >
+      <div
+        aria-valuenow={85}
+        className="MuiLinearProgress-root-116 MuiLinearProgress-colorPrimary-117"
+        role="progressbar"
+      >
+        <div
+          className="MuiLinearProgress-bar-124 MuiLinearProgress-barColorPrimary-125 MuiLinearProgress-bar1Determinate-129"
+          style={
+            Object {
+              "transform": "scaleX(0.85)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "fontFamily": "Roboto",
+      }
+    }
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-2-29"
+    >
+      <p
+        className="MuiTypography-root-92 MuiTypography-body1-101"
+      >
+         
+        React
+      </p>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-10-37"
+    >
+      <div
+        aria-valuenow={70}
+        className="MuiLinearProgress-root-116 MuiLinearProgress-colorPrimary-117"
+        role="progressbar"
+      >
+        <div
+          className="MuiLinearProgress-bar-124 MuiLinearProgress-barColorPrimary-125 MuiLinearProgress-bar1Determinate-129"
+          style={
+            Object {
+              "transform": "scaleX(0.7)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "fontFamily": "Roboto",
+      }
+    }
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-2-29"
+    >
+      <p
+        className="MuiTypography-root-92 MuiTypography-body1-101"
+      >
+         
+        HTML
+      </p>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-10-37"
+    >
+      <div
+        aria-valuenow={45}
+        className="MuiLinearProgress-root-116 MuiLinearProgress-colorPrimary-117"
+        role="progressbar"
+      >
+        <div
+          className="MuiLinearProgress-bar-124 MuiLinearProgress-barColorPrimary-125 MuiLinearProgress-bar1Determinate-129"
+          style={
+            Object {
+              "transform": "scaleX(0.45)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "fontFamily": "Roboto",
+      }
+    }
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-2-29"
+    >
+      <p
+        className="MuiTypography-root-92 MuiTypography-body1-101"
+      >
+         
+        JavaScript
+      </p>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-10-37"
+    >
+      <div
+        aria-valuenow={65}
+        className="MuiLinearProgress-root-116 MuiLinearProgress-colorPrimary-117"
+        role="progressbar"
+      >
+        <div
+          className="MuiLinearProgress-bar-124 MuiLinearProgress-barColorPrimary-125 MuiLinearProgress-bar1Determinate-129"
+          style={
+            Object {
+              "transform": "scaleX(0.65)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "fontFamily": "Roboto",
+      }
+    }
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-2-29"
+    >
+      <p
+        className="MuiTypography-root-92 MuiTypography-body1-101"
+      >
+         
+        Ruby
+      </p>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-10-37"
+    >
+      <div
+        aria-valuenow={80}
+        className="MuiLinearProgress-root-116 MuiLinearProgress-colorPrimary-117"
+        role="progressbar"
+      >
+        <div
+          className="MuiLinearProgress-bar-124 MuiLinearProgress-barColorPrimary-125 MuiLinearProgress-bar1Determinate-129"
+          style={
+            Object {
+              "transform": "scaleX(0.8)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "fontFamily": "Roboto",
+      }
+    }
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-2-29"
+    >
+      <p
+        className="MuiTypography-root-92 MuiTypography-body1-101"
+      >
+         
+        Elixir
+      </p>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-10-37"
+    >
+      <div
+        aria-valuenow={70}
+        className="MuiLinearProgress-root-116 MuiLinearProgress-colorPrimary-117"
+        role="progressbar"
+      >
+        <div
+          className="MuiLinearProgress-bar-124 MuiLinearProgress-barColorPrimary-125 MuiLinearProgress-bar1Determinate-129"
+          style={
+            Object {
+              "transform": "scaleX(0.7)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
