@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders to snapshot 1`] = `
+<div
+  className="MuiPaper-root-1 MuiPaper-elevation4-7 MuiPaper-rounded-2"
+  style={
+    Object {
+      "backgroundColor": "#AAAAAA",
+    }
+  }
+>
+  <p
+    className="MuiTypography-root-28 MuiTypography-body1-37"
+  >
+    Reskilled in web and mobile development from a ERP software implementation career, I'm looking for remote-based short to mid term contracts. Rates negotiable.
+  </p>
+</div>
+`;
