@@ -1,4 +1,5 @@
 // Component Index
+import Education from './Education'
 import Skills from './Skills'
 import Timeline from './Timeline'
 import SectionTitle from './SectionTitle'
@@ -9,6 +10,7 @@ import Header from './Header'
 
 // prettier-ignore
 export {
+  Education,
   Skills,
   Timeline,
   SectionTitle,

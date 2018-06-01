@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders to snapshot 1`] = `
+<div>
+  <div
+    className="MuiPaper-root-1 MuiPaper-elevation4-7 MuiPaper-rounded-2"
+  >
+    <p
+      className="MuiTypography-root-28 MuiTypography-body1-37"
+    >
+      Bachelor of Management Studies
+    </p>
+    <p
+      className="MuiTypography-root-28 MuiTypography-body1-37"
+    >
+      University of Waikato
+    </p>
+  </div>
+</div>
+`;
