@@ -65,6 +65,9 @@
       "git add"
     ]
   },
+  "prettier": {
+    "semi": false
+  },
   "standard": {
     "globals": [
       "__DEV__",
