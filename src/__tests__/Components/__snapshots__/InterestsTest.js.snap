@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders to snapshot 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexWrap": "wrap",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 75,
+        "width": 75,
+      }
+    }
+  >
+    <img
+      src="beer.png"
+      style={
+        Object {
+          "height": 50,
+          "width": 50,
+        }
+      }
+    />
+    <p
+      className="MuiTypography-root-1 MuiTypography-body1-10"
+    >
+      Beer
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 75,
+        "width": 75,
+      }
+    }
+  >
+    <img
+      src="church.png"
+      style={
+        Object {
+          "height": 50,
+          "width": 50,
+        }
+      }
+    />
+    <p
+      className="MuiTypography-root-1 MuiTypography-body1-10"
+    >
+      Church
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 75,
+        "width": 75,
+      }
+    }
+  >
+    <img
+      src="hot-drink.png"
+      style={
+        Object {
+          "height": 50,
+          "width": 50,
+        }
+      }
+    />
+    <p
+      className="MuiTypography-root-1 MuiTypography-body1-10"
+    >
+      Coffee
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 75,
+        "width": 75,
+      }
+    }
+  >
+    <img
+      src="laptop.png"
+      style={
+        Object {
+          "height": 50,
+          "width": 50,
+        }
+      }
+    />
+    <p
+      className="MuiTypography-root-1 MuiTypography-body1-10"
+    >
+      Coding
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 75,
+        "width": 75,
+      }
+    }
+  >
+    <img
+      src="shoes.png"
+      style={
+        Object {
+          "height": 50,
+          "width": 50,
+        }
+      }
+    />
+    <p
+      className="MuiTypography-root-1 MuiTypography-body1-10"
+    >
+      Running
+    </p>
+  </div>
+</div>
+`;

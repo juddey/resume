@@ -1,4 +1,5 @@
 // Storybooks Index
+import './Interests.story.js'
 import './Footer.story.js'
 import './Education.story.js'
 import './Skills.story.js'

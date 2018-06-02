@@ -1,4 +1,5 @@
 // Component Index
+import Interests from './Interests'
 import Footer from './Footer'
 import Education from './Education'
 import Skills from './Skills'
@@ -11,6 +12,7 @@ import Header from './Header'
 
 // prettier-ignore
 export {
+  Interests,
   Footer,
   Education,
   Skills,
