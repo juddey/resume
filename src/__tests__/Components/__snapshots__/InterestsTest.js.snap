@@ -21,6 +21,7 @@ exports[`renders to snapshot 1`] = `
     }
   >
     <img
+      alt="Beer"
       src="beer.png"
       style={
         Object {
@@ -47,6 +48,7 @@ exports[`renders to snapshot 1`] = `
     }
   >
     <img
+      alt="Church"
       src="church.png"
       style={
         Object {
@@ -73,6 +75,7 @@ exports[`renders to snapshot 1`] = `
     }
   >
     <img
+      alt="Coffee"
       src="hot-drink.png"
       style={
         Object {
@@ -99,6 +102,7 @@ exports[`renders to snapshot 1`] = `
     }
   >
     <img
+      alt="Coding"
       src="laptop.png"
       style={
         Object {
@@ -125,6 +129,7 @@ exports[`renders to snapshot 1`] = `
     }
   >
     <img
+      alt="Running"
       src="shoes.png"
       style={
         Object {

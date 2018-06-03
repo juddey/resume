@@ -1,7 +1,7 @@
 import React from 'react'
 import Typography from '@material-ui/core/Typography'
-// import styles from './Styles/InterestsStyle'
 import { Images } from '../Themes'
+import styles from './Styles/InterestsStyle'
 
 const data = [
   { image: Images.beer, label: 'Beer' },
@@ -12,19 +12,10 @@ const data = [
 ]
 
 const Interests = () => (
-  <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+  <div style={styles.container}>
     {data.map((x, i) => (
-      <div
-        key={i}
-        style={{
-          width: 75,
-          height: 75,
-          display: 'flex',
-          alignItems: 'center',
-          flexDirection: 'column'
-        }}
-      >
-        <img src={x.image} style={{ width: 50, height: 50 }} />
+      <div key={i} style={styles.wrapper}>
+        <img src={x.image} style={styles.image} alt={x.label} />
         <Typography>{x.label}</Typography>
       </div>
     ))}
