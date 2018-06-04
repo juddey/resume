@@ -17,10 +17,10 @@ const Skills = () => (
   <div>
     {data.map((x, i) => (
       <div key={i} style={styles.container}>
-        <Grid item xs={2}>
-          <Typography> {x.label}</Typography>
+        <Grid item xs={3} md={2}>
+          <Typography>{x.label}</Typography>
         </Grid>
-        <Grid item xs={10}>
+        <Grid item xs={9} md={10}>
           <LinearProgress variant='determinate' value={x.level} />
         </Grid>
       </div>
