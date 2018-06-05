@@ -37,9 +37,6 @@ export default class Timeline extends React.Component {
             subtitle='2015 - now'
             icon={<BabyBuggyIcon />}
             iconColor='#757575'
-            container='card'
-            subtitleStyle={{ color: 'black' }}
-            cardHeaderStyle={{ backgroundColor: 'lightGray', color: 'black' }}
           >
             <p>
               My latest venture, combining education, technology and process
@@ -56,9 +53,6 @@ export default class Timeline extends React.Component {
             subtitle='2014 - 2015'
             icon={<DeveloperBoardIcon />}
             iconColor='#757575'
-            container='card'
-            subtitleStyle={{ color: 'black' }}
-            cardHeaderStyle={{ backgroundColor: 'lightGray', color: 'black' }}
           >
             <p>
               Co-Founder for a new Developer Sourcing Tool designed to improve
@@ -70,16 +64,14 @@ export default class Timeline extends React.Component {
           </TimelineEvent>
           <TimelineBlip
             title='Taking a break for children'
+            iconColor='#757575'
             icon={<HomeHeartIcon />}
           />
           <TimelineEvent
             title='Various Educational Institutions'
             subtitle='2012 & prior'
             icon={<SchoolIcon />}
-            container='card'
             iconColor='#757575'
-            subtitleStyle={{ color: 'black' }}
-            cardHeaderStyle={{ backgroundColor: 'lightGray', color: 'black' }}
           >
             <p>
               Provided Process Improvement, Business Analysis, Software Design
@@ -99,23 +91,3 @@ export default class Timeline extends React.Component {
     )
   }
 }
-
-// react-intl Messages, outside of FormatMessage
-// https://stackoverflow.com/questions/35186297/how-to-retrieve-a-string-in-reactintl-2-0-without-using-formattedmessage/39161208#39161208
-// If you can't use <FormattedMessage /> for some reason, you can use this
-// syntax: `this.context.intl.formatMessage({ ...messages.default })`
-// by uncommenting the next block.
-//  Timeline.contextTypes = {
-//   intl: PropTypes.object.isRequired
-// }
-
-// // Prop type warnings
-// Timeline.propTypes = {
-//   someProperty: PropTypes.object,
-//   someSetting: PropTypes.bool.isRequired
-// }
-//
-// // Defaults for props
-// Timeline.defaultProps = {
-//   someSetting: false
-// }
