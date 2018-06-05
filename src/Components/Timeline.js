@@ -35,9 +35,11 @@ export default class Timeline extends React.Component {
           <TimelineEvent
             title='Founder: tiaki.care'
             subtitle='2015 - now'
-            subtitleStyle={{ color: '#FFFFFF' }}
-            icon={<BabyBuggyIcon color='#6fba1c' />}
+            icon={<BabyBuggyIcon />}
+            iconColor='#757575'
             container='card'
+            subtitleStyle={{ color: 'black' }}
+            cardHeaderStyle={{ backgroundColor: 'lightGray', color: 'black' }}
           >
             <p>
               My latest venture, combining education, technology and process
@@ -52,9 +54,11 @@ export default class Timeline extends React.Component {
           <TimelineEvent
             title='Founder: kandid.nz'
             subtitle='2014 - 2015'
-            subtitleStyle={{ color: '#FFFFFF' }}
-            icon={<DeveloperBoardIcon color='#6fba1c' />}
+            icon={<DeveloperBoardIcon />}
+            iconColor='#757575'
             container='card'
+            subtitleStyle={{ color: 'black' }}
+            cardHeaderStyle={{ backgroundColor: 'lightGray', color: 'black' }}
           >
             <p>
               Co-Founder for a new Developer Sourcing Tool designed to improve
@@ -71,9 +75,11 @@ export default class Timeline extends React.Component {
           <TimelineEvent
             title='Various Educational Institutions'
             subtitle='2012 & prior'
-            subtitleStyle={{ color: '#FFFFFF' }}
-            icon={<SchoolIcon color='#6fba1c' />}
+            icon={<SchoolIcon />}
             container='card'
+            iconColor='#757575'
+            subtitleStyle={{ color: 'black' }}
+            cardHeaderStyle={{ backgroundColor: 'lightGray', color: 'black' }}
           >
             <p>
               Provided Process Improvement, Business Analysis, Software Design
