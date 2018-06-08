@@ -28,7 +28,7 @@ function RootScreen () {
             <Grid item xs />
             <Grid item xs={12}>
               <Footer />
-              <div style={styles.section}>
+              <div style={styles.sectionTitle}>
                 <SectionTitle title='Experience' />
               </div>
               <div style={styles.section}>
@@ -38,19 +38,19 @@ function RootScreen () {
           </div>
           <Grid container>
             <Grid item xs />
-            <Grid item xs={10}>
-              <div style={styles.section}>
+            <Grid item xs={12}>
+              <div style={styles.sectionTitle}>
                 <SectionTitle title='Technical Skills' />
               </div>
               <Skills />
-              <div style={styles.section}>
+              <div style={styles.sectionTitle}>
                 <SectionTitle title='Education' />
               </div>
               <Education />
-              <div style={styles.section}>
+              <div style={styles.sectionTitle}>
                 <SectionTitle title='Interests' />
-                <Interests />
               </div>
+              <Interests />
             </Grid>
             <Grid item xs />
           </Grid>

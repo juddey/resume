@@ -20,10 +20,14 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center',
     marginBottom: '5px'
   },
-
+  sectionTitle: {
+    justifyContent: 'flex-start',
+    borderBottom: '1px solid black',
+    marginBottom: '5px',
+    marginTop: '15px'
+  },
   container: {
     flex: 1
   }
