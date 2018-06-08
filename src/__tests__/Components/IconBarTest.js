@@ -14,7 +14,7 @@ test('component exists', () => {
 
 test('component structure', () => {
   expect(wrapper.name()).toEqual('div')
-  expect(wrapper.children().length).toEqual(3)
+  expect(wrapper.children().length).toEqual(4)
 })
 
 test('renders to snapshot', () => {
