@@ -11,9 +11,7 @@ import {
   Timeline
 } from '../Components'
 import { Grid } from '@material-ui/core'
-
-// Add Actions - replace 'Your' with whatever your reducer is called :)
-// import YourActions from '../Redux/YourRedux'
+import styles from './Styles/RootScreenStyle'
 
 function RootScreen () {
   return (
@@ -21,54 +19,19 @@ function RootScreen () {
       <Grid container spacing={8}>
         <Grid item xs />
         <Grid item xs={12} md={10} lg={6}>
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
-              alignItems: 'center',
-              borderBottom: '1px solid black',
-              marginBottom: '5px'
-            }}
-          >
+          <div style={styles.heading}>
             <Avatar />
             <ResumeTitle />
             <IconBar />
           </div>
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
-              alignItems: 'center',
-              borderBottom: '1px solid black',
-              marginBottom: '5px'
-            }}
-          >
+          <div style={styles.section}>
             <Grid item xs />
             <Grid item xs={12}>
               <Footer />
-              <div
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  marginBottom: '5px',
-                  marginTop: '5px'
-                }}
-              >
+              <div style={styles.section}>
                 <SectionTitle title='Experience' />
               </div>
-              <div
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  marginBottom: '5px'
-                }}
-              >
+              <div style={styles.section}>
                 <Timeline />
               </div>
             </Grid>
@@ -76,39 +39,15 @@ function RootScreen () {
           <Grid container>
             <Grid item xs />
             <Grid item xs={10}>
-              <div
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  marginBottom: '5px'
-                }}
-              >
+              <div style={styles.section}>
                 <SectionTitle title='Technical Skills' />
               </div>
               <Skills />
-              <div
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  marginBottom: '5px'
-                }}
-              >
+              <div style={styles.section}>
                 <SectionTitle title='Education' />
               </div>
               <Education />
-              <div
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  marginBottom: '5px'
-                }}
-              >
+              <div style={styles.section}>
                 <SectionTitle title='Interests' />
                 <Interests />
               </div>
