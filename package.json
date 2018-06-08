@@ -70,7 +70,6 @@
   },
   "standard": {
     "globals": [
-      "__DEV__",
       "jasmine",
       "beforeAll",
       "afterAll",
