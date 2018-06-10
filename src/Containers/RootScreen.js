@@ -8,7 +8,7 @@ import {
   ResumeTitle,
   SectionTitle,
   Skills,
-  Timeline
+  ExperienceCard
 } from '../Components'
 import { Grid } from '@material-ui/core'
 import styles from './Styles/RootScreenStyle'
@@ -27,12 +27,25 @@ function RootScreen () {
           <div style={styles.section}>
             <Grid item xs />
             <Grid item xs={12}>
-              <Footer />
+              <div style={styles.sectionTitle}>
+                <SectionTitle title='About' />
+              </div>
+              <div style={styles.section}>
+                <Footer />
+              </div>
               <div style={styles.sectionTitle}>
                 <SectionTitle title='Experience' />
               </div>
               <div style={styles.section}>
-                <Timeline />
+                <div style={{ marginBottom: 10 }}>
+                  <ExperienceCard />
+                </div>
+                <div style={{ marginBottom: 10 }}>
+                  <ExperienceCard />
+                </div>
+                <div style={{ marginBottom: 10 }}>
+                  <ExperienceCard />
+                </div>
               </div>
             </Grid>
           </div>

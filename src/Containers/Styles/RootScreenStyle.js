@@ -25,8 +25,8 @@ const styles = {
   sectionTitle: {
     justifyContent: 'flex-start',
     borderBottom: '1px solid black',
-    marginBottom: '5px',
-    marginTop: '15px'
+    marginTop: '20px',
+    marginBottom: '15px'
   },
   container: {
     flex: 1
