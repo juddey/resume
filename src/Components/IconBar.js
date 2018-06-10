@@ -30,13 +30,13 @@ export default class IconBar extends React.Component {
 
     return (
       <div style={styles.container}>
-        <IconButton onClick={this.handleClick}>
+        <IconButton onClick={this.handleClick.bind(this)}>
           <EmailOutlineIcon />
         </IconButton>
         <Popover
           open={Boolean(anchorEl)}
           anchorEl={anchorEl}
-          onClose={this.handleClose}
+          onClose={this.handleClose.bind(this)}
           anchorOrigin={{
             vertical: 'center',
             horizontal: 'center'
@@ -46,7 +46,9 @@ export default class IconBar extends React.Component {
             horizontal: 'center'
           }}
         >
-          <Typography>juddeylane at gmail dot com</Typography>
+          <Typography style={{ padding: 10 }}>
+            juddeylane at gmail dot com
+          </Typography>
         </Popover>
         <IconButton href={'https://github.com/juddey'} target={'_blank'}>
           <GithubCircleIcon />
