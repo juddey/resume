@@ -10,7 +10,7 @@ import {
   Skills,
   ExperienceCard
 } from '../Components'
-import { Grid } from '@material-ui/core'
+import { Grid, Typography } from '@material-ui/core'
 import styles from './Styles/RootScreenStyle'
 
 function RootScreen () {
@@ -20,9 +20,19 @@ function RootScreen () {
         <Grid item xs />
         <Grid item xs={12} md={10} lg={6}>
           <div style={styles.heading}>
-            <Avatar />
-            <ResumeTitle />
-            <IconBar />
+            <div style={{ display: 'flex', flex: 1, marginBottom: '5px' }}>
+              <Avatar />
+              <div style={{ marginLeft: 10 }} />
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <ResumeTitle />
+                <Typography> Software Developer </Typography>
+              </div>
+            </div>
+            <div
+              style={{ display: 'flex', flex: 1, justifyContent: 'flex-end' }}
+            >
+              <IconBar />
+            </div>
           </div>
           <div style={styles.section}>
             <Grid item xs />

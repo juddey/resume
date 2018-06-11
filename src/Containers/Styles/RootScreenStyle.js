@@ -3,10 +3,9 @@
 const styles = {
   heading: {
     display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginBottom: '5px'
+    flexDirection: 'row',
+    marginBottom: '5px',
+    borderBottom: '5px solid black'
   },
   experience: {
     display: 'flex',

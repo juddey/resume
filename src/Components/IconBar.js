@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './Styles/IconBarStyle'
 import Popover from '@material-ui/core/Popover'
 import IconButton from '@material-ui/core/IconButton'
 import Typography from '@material-ui/core/Typography'
@@ -29,7 +28,7 @@ export default class IconBar extends React.Component {
     const { anchorEl } = this.state
 
     return (
-      <div style={styles.container}>
+      <div>
         <IconButton onClick={this.handleClick.bind(this)}>
           <EmailOutlineIcon />
         </IconButton>
