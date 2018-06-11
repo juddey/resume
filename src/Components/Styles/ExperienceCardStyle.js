@@ -2,8 +2,7 @@
 
 const styles = {
   container: {
-    flex: 1,
-    paddingTop: 15
+    flex: 1
   }
 }
 export default styles

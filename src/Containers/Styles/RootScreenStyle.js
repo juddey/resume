@@ -2,6 +2,7 @@
 
 const styles = {
   heading: {
+    minWidth: '400',
     display: 'flex',
     flexDirection: 'row',
     marginBottom: '5px',

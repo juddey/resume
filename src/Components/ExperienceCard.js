@@ -66,18 +66,50 @@ class ExperienceCard extends React.Component {
           <div>
             {this.state.expanded && (
               <CardContent>
-                <Typography
-                  style={{ display: 'flex', flex: 1, justifyContent: 'center' }}
-                  paragraph
-                >
+                <Typography paragraph>
                   creating a SaaS for early childhood centres
                 </Typography>
 
-                <Chip label={'React Native'} />
-                <Chip label={'React'} />
-                <Chip label={'Elixir'} />
-                <Chip label={'Ruby'} />
-                <Chip label={'AWS'} />
+                <Chip
+                  label={'React Native'}
+                  style={{
+                    background: 'white',
+                    marginRight: 8,
+                    border: '1px solid black'
+                  }}
+                />
+                <Chip
+                  label={'React'}
+                  style={{
+                    background: 'white',
+                    marginRight: 8,
+                    border: '1px solid black'
+                  }}
+                />
+                <Chip
+                  label={'Elixir'}
+                  style={{
+                    background: 'white',
+                    marginRight: 8,
+                    border: '1px solid black'
+                  }}
+                />
+                <Chip
+                  label={'Ruby'}
+                  style={{
+                    background: 'white',
+                    marginRight: 8,
+                    border: '1px solid black'
+                  }}
+                />
+                <Chip
+                  label={'AWS'}
+                  style={{
+                    background: 'white',
+                    marginRight: 8,
+                    border: '1px solid black'
+                  }}
+                />
               </CardContent>
             )}
           </div>

@@ -18,9 +18,9 @@ function RootScreen () {
     <div>
       <Grid container spacing={8}>
         <Grid item xs />
-        <Grid item xs={12} md={10} lg={6}>
+        <Grid item xs={12} sm={6} md={4} lg={4} xl={4}>
           <div style={styles.heading}>
-            <div style={{ display: 'flex', flex: 1, marginBottom: '5px' }}>
+            <div style={{ display: 'flex', marginBottom: '5px' }}>
               <Avatar />
               <div style={{ marginLeft: 10 }} />
               <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -37,9 +37,6 @@ function RootScreen () {
           <div style={styles.section}>
             <Grid item xs />
             <Grid item xs={12}>
-              <div style={styles.sectionTitle}>
-                <SectionTitle title='About' />
-              </div>
               <div style={styles.section}>
                 <Footer />
               </div>

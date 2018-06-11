@@ -38,11 +38,11 @@ export default class IconBar extends React.Component {
           onClose={this.handleClose.bind(this)}
           anchorOrigin={{
             vertical: 'center',
-            horizontal: 'center'
+            horizontal: 'left'
           }}
           transformOrigin={{
             vertical: 'center',
-            horizontal: 'center'
+            horizontal: 'right'
           }}
         >
           <Typography style={{ padding: 10 }}>

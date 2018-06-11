@@ -4,6 +4,6 @@ exports[`renders to snapshot 1`] = `
 <h1
   className="MuiTypography-root-1 MuiTypography-headline-6"
 >
-  Software Developer
+  Justin Lane
 </h1>
 `;
