@@ -3,6 +3,7 @@
 const styles = {
   container: {
     display: 'flex',
+    justifyContent: 'center',
     flexWrap: 'wrap'
   },
   wrapper: {

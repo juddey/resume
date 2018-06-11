@@ -11,11 +11,11 @@ import {
 } from 'mdi-react'
 
 const data = [
+  { image: <CoffeeIcon size={40} />, label: 'Coffee' },
+  { image: <RunFastIcon size={40} />, label: 'Running' },
   { image: <BeerIcon size={40} />, label: 'Beer' },
   { image: <ChurchIcon size={40} />, label: 'Church' },
-  { image: <CoffeeIcon size={40} />, label: 'Coffee' },
-  { image: <CodeNotEqualVariantIcon size={40} />, label: 'Coding' },
-  { image: <RunFastIcon size={40} />, label: 'Running' }
+  { image: <CodeNotEqualVariantIcon size={40} />, label: 'Coding' }
 ]
 
 const Interests = () => (
