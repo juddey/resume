@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Card from '@material-ui/core/Card'
 import CardHeader from '@material-ui/core/CardHeader'
 import CardContent from '@material-ui/core/CardContent'
@@ -46,7 +45,8 @@ class ExperienceCard extends React.Component {
                       flexDirection: 'row',
                       alignItems: 'center',
                       flex: 1,
-                      justifyContent: 'space-between'
+                      justifyContent: 'space-between',
+                      marginRight: 4
                     }}
                   >
                     <div>Founder, tiaki.care</div>
@@ -65,61 +65,65 @@ class ExperienceCard extends React.Component {
           />
           <div>
             {this.state.expanded && (
-              <CardContent>
-                <Typography paragraph>
-                  creating a SaaS for early childhood centres
-                </Typography>
+              <div style={{ marginTop: -20 }}>
+                <CardContent>
+                  <Typography paragraph>
+                    creating a SaaS for early childhood centres
+                  </Typography>
 
-                <Chip
-                  label={'React Native'}
-                  style={{
-                    background: 'white',
-                    marginRight: 8,
-                    border: '1px solid black'
-                  }}
-                />
-                <Chip
-                  label={'React'}
-                  style={{
-                    background: 'white',
-                    marginRight: 8,
-                    border: '1px solid black'
-                  }}
-                />
-                <Chip
-                  label={'Elixir'}
-                  style={{
-                    background: 'white',
-                    marginRight: 8,
-                    border: '1px solid black'
-                  }}
-                />
-                <Chip
-                  label={'Ruby'}
-                  style={{
-                    background: 'white',
-                    marginRight: 8,
-                    border: '1px solid black'
-                  }}
-                />
-                <Chip
-                  label={'AWS'}
-                  style={{
-                    background: 'white',
-                    marginRight: 8,
-                    border: '1px solid black'
-                  }}
-                />
-              </CardContent>
+                  <Chip
+                    label={'React Native'}
+                    style={{
+                      marginTop: 5,
+                      background: 'white',
+                      marginRight: 5,
+                      border: '1px solid black'
+                    }}
+                  />
+                  <Chip
+                    label={'React'}
+                    style={{
+                      marginTop: 5,
+                      background: 'white',
+                      marginRight: 5,
+                      border: '1px solid black'
+                    }}
+                  />
+                  <Chip
+                    label={'Elixir'}
+                    style={{
+                      marginTop: 5,
+                      background: 'white',
+                      marginRight: 5,
+                      border: '1px solid black'
+                    }}
+                  />
+                  <Chip
+                    label={'Ruby'}
+                    style={{
+                      marginTop: 5,
+                      background: 'white',
+                      marginRight: 5,
+                      border: '1px solid black'
+                    }}
+                  />
+                  <Chip
+                    label={'AWS'}
+                    style={{
+                      marginTop: 5,
+                      background: 'white',
+                      marginRight: 5,
+                      border: '1px solid black'
+                    }}
+                  />
+                </CardContent>
+              </div>
             )}
           </div>
         </Card>
       </div>
     )
   }
-}
-ExperienceCard.propTypes = {
-  classes: PropTypes.object.isRequired
 }
 
 export default ExperienceCard

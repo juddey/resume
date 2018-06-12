@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders to snapshot 1`] = `
+<div
+  style={
+    Object {
+      "minWidth": 275,
+    }
+  }
+>
+  <div
+    className="MuiPaper-root-2 MuiPaper-elevation2-6 MuiPaper-rounded-3 MuiCard-root-1"
+  >
+    <div
+      className="MuiCardHeader-root-29"
+    >
+      <div
+        className="MuiCardHeader-avatar-30"
+      >
+        <div
+          aria-label="tiaki"
+          className="MuiAvatar-root-35 MuiAvatar-colorDefault-36"
+        >
+          T
+        </div>
+      </div>
+      <div
+        className="MuiCardHeader-content-32"
+      >
+        <span
+          className="MuiTypography-root-38 MuiTypography-body2-46 MuiCardHeader-title-33"
+        >
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "flex": 1,
+                "flexDirection": "row",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                    "marginRight": 4,
+                  }
+                }
+              >
+                <div>
+                  Founder, tiaki.care
+                </div>
+                <div>
+                  2015 - now
+                </div>
+              </div>
+              <button
+                className="MuiButtonBase-root-68 MuiIconButton-root-62"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex="0"
+                type="button"
+              >
+                <span
+                  className="MuiIconButton-label-67"
+                >
+                  <svg
+                    className="mdi-icon "
+                    fill="#000"
+                    height={24}
+                    viewBox="0 0 24 24"
+                    width={24}
+                  >
+                    <path
+                      d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  className="MuiTouchRipple-root-71"
+                />
+              </button>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div />
+  </div>
+</div>
+`;
