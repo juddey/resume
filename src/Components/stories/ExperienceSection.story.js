@@ -1,5 +1,5 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import ExperienceSection from './ExperienceSection'
+import ExperienceSection from '../ExperienceSection'
 
-storiesOf('Avatar').add('default', () => <ExperienceSection />)
+storiesOf('ExperienceSection').add('default', () => <ExperienceSection />)
