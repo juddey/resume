@@ -4,7 +4,8 @@ const images = {
   church: require('../Images/church.png'),
   drink: require('../Images/hot-drink.png'),
   laptop: require('../Images/laptop.png'),
-  shoes: require('../Images/shoes.png')
+  shoes: require('../Images/shoes.png'),
+  tiaki: require('../Images/tiaki-man.png')
 }
 
 export default images

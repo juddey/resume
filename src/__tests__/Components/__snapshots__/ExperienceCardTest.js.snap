@@ -19,9 +19,15 @@ exports[`renders to snapshot 1`] = `
       >
         <div
           aria-label="tiaki"
-          className="MuiAvatar-root-35 MuiAvatar-colorDefault-36"
+          className="MuiAvatar-root-35"
         >
-          T
+          <img
+            alt="tiaki"
+            className="MuiAvatar-img-37"
+            sizes={undefined}
+            src="tiaki-man.png"
+            srcSet={undefined}
+          />
         </div>
       </div>
       <div

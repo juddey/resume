@@ -7,6 +7,7 @@ import Avatar from '@material-ui/core/Avatar'
 import IconButton from '@material-ui/core/IconButton'
 import Chip from '@material-ui/core/Chip'
 import { ChevronDownIcon, ChevronUpIcon } from 'mdi-react'
+import { Images } from '../Themes'
 
 class ExperienceCard extends React.Component {
   constructor (props) {
@@ -23,7 +24,9 @@ class ExperienceCard extends React.Component {
       <div style={{ minWidth: 275 }}>
         <Card>
           <CardHeader
-            avatar={<Avatar aria-label='tiaki'>T</Avatar>}
+            avatar={
+              <Avatar aria-label='tiaki' alt='tiaki' src={Images.tiaki} />
+            }
             title={
               <div
                 style={{
