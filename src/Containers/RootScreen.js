@@ -12,6 +12,7 @@ import {
 } from '../Components'
 import { Grid, Typography } from '@material-ui/core'
 import styles from './Styles/RootScreenStyle'
+import ExperienceData from '../data/Experience'
 
 function RootScreen () {
   return (
@@ -44,15 +45,17 @@ function RootScreen () {
                 <SectionTitle title='Experience' />
               </div>
               <div style={styles.section}>
-                <div style={{ marginBottom: 10 }}>
-                  <ExperienceCard />
-                </div>
-                <div style={{ marginBottom: 10 }}>
-                  <ExperienceCard />
-                </div>
-                <div style={{ marginBottom: 10 }}>
-                  <ExperienceCard />
-                </div>
+                {ExperienceData.map((data, i) => (
+                  <div style={{ marginBottom: 10 }}>
+                    <ExperienceCard
+                      headerLeftText={data.position}
+                      headerRightText={data.duration}
+                      cardText={data.cardText}
+                      chips={data.chips}
+                      avatarImage={data.avatarImage}
+                    />
+                  </div>
+                ))}
               </div>
             </Grid>
           </div>

@@ -4,8 +4,9 @@ import Typography from '@material-ui/core/Typography'
 
 const Education = () => (
   <div>
-    <Typography>Bachelor of Management Studies</Typography>
-    <Typography>University of Waikato</Typography>
+    <Typography>
+      Bachelor of Management Studies, University of Waikato, New Zealand{' '}
+    </Typography>
   </div>
 )
 

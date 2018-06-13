@@ -2,19 +2,10 @@
 
 exports[`renders to snapshot 1`] = `
 <div>
-  <div
-    className="MuiPaper-root-1 MuiPaper-elevation4-7 MuiPaper-rounded-2"
+  <p
+    className="MuiTypography-root-1 MuiTypography-body1-10"
   >
-    <p
-      className="MuiTypography-root-28 MuiTypography-body1-37"
-    >
-      Bachelor of Management Studies
-    </p>
-    <p
-      className="MuiTypography-root-28 MuiTypography-body1-37"
-    >
-      University of Waikato
-    </p>
-  </div>
+    Bachelor of Management Studies, University of Waikato, New Zealand 
+  </p>
 </div>
 `;
