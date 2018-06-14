@@ -9,7 +9,7 @@ export default class Avatar extends React.Component {
         <MuiAvatar
           alt='juddey'
           src={Images.avatar}
-          style={{ width: 60, height: 60 }}
+          style={{ width: 60, height: 60, border: '1px solid black' }}
         />
       </div>
     )

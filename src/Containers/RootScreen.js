@@ -2,7 +2,6 @@ import React from 'react'
 import {
   Avatar,
   Footer,
-  Education,
   IconBar,
   Interests,
   ResumeTitle,
@@ -10,76 +9,107 @@ import {
   Skills,
   ExperienceCard
 } from '../Components'
-import { Grid, Typography } from '@material-ui/core'
+import { Hidden, Grid, Typography } from '@material-ui/core'
 import styles from './Styles/RootScreenStyle'
 import ExperienceData from '../data/Experience'
 
 function RootScreen () {
   return (
     <div>
-      <Grid container spacing={8}>
-        <Grid item xs />
-        <Grid item xs={12} sm={6} md={4} lg={4} xl={4}>
+      <Grid container>
+        <Hidden only='xs'>
+          <Grid item sm md={2} lg={3} xl={4} />
+        </Hidden>
+        <Grid item xs={12} sm={10} md={8} lg={6} xl={4}>
           <div style={styles.heading}>
-            <div style={{ display: 'flex', marginBottom: '5px' }}>
-              <Avatar />
-              <div style={{ marginLeft: 10 }} />
-              <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <ResumeTitle />
-                <Typography> Software Developer </Typography>
-              </div>
-            </div>
-            <div
-              style={{ display: 'flex', flex: 1, justifyContent: 'flex-end' }}
-            >
-              <IconBar />
-            </div>
+            <Avatar />
+            <div style={{ marginBottom: 10 }} />
+            <ResumeTitle />
+            <Typography> Software Developer </Typography>
+            <div style={{ marginBottom: 10 }} />
+            <IconBar />
+            <div style={{ marginBottom: 50 }} />
           </div>
-          <div style={styles.section}>
-            <Grid item xs />
-            <Grid item xs={12}>
-              <div style={styles.section}>
-                <Footer />
+          {/* Section Start */}
+          <Grid container>
+            <Hidden only='xs'>
+              <Grid item sm={1} md={1} lg={1} xl={1} />
+            </Hidden>
+            <Grid item xs={12} sm={10} md={10} lg={10} xl={10}>
+              <div style={styles.sectionTitle}>
+                <SectionTitle title='About' />
               </div>
+              <Footer />
+            </Grid>
+            <Hidden only='xs'>
+              <Grid item sm={1} md={1} lg={1} xl={1} />
+            </Hidden>
+          </Grid>
+          <div style={styles.line} />
+          {/* Section End */}
+
+          <Grid container>
+            <Hidden only='xs'>
+              <Grid item sm={1} md={1} lg={1} xl={1} />
+            </Hidden>
+            <Grid item xs={12} sm={10} md={10} lg={10} xl={10}>
               <div style={styles.sectionTitle}>
                 <SectionTitle title='Experience' />
               </div>
-              <div style={styles.section}>
-                {ExperienceData.map((data, i) => (
-                  <div style={{ marginBottom: 10 }}>
-                    <ExperienceCard
-                      headerLeftText={data.position}
-                      headerRightText={data.duration}
-                      cardText={data.cardText}
-                      chips={data.chips}
-                      avatarImage={data.avatarImage}
-                    />
-                  </div>
-                ))}
-              </div>
+              {ExperienceData.map((data, i) => (
+                <div style={{ marginBottom: 10 }}>
+                  <ExperienceCard
+                    headerLeftText={data.position}
+                    headerRightText={data.duration}
+                    cardText={data.cardText}
+                    chips={data.chips}
+                    avatarImage={data.avatarImage}
+                  />
+                </div>
+              ))}
             </Grid>
-          </div>
+            <Hidden only='xs'>
+              <Grid item sm={1} md={1} lg={1} xl={1} />
+            </Hidden>
+          </Grid>
+          <div style={styles.line} />
+          {/* Section Start */}
           <Grid container>
-            <Grid item xs />
-            <Grid item xs={12}>
+            <Hidden only='xs'>
+              <Grid item sm={1} md={1} lg={1} xl={1} />
+            </Hidden>
+            <Grid item xs={12} sm={10} md={10} lg={10} xl={10}>
               <div style={styles.sectionTitle}>
-                <SectionTitle title='Technical Skills' />
+                <SectionTitle title='Skills' />
               </div>
               <Skills />
-              <div style={styles.sectionTitle}>
-                <SectionTitle title='Education' />
-              </div>
-              <Education />
+            </Grid>
+            <Hidden only='xs'>
+              <Grid item sm={1} md={1} lg={1} xl={1} />
+            </Hidden>
+          </Grid>
+          <div style={styles.line} />
+          {/* Section End */}
+          <Grid container>
+            <Hidden only='xs'>
+              <Grid item sm={1} md={1} lg={1} xl={1} />
+            </Hidden>
+            <Grid item xs={12} sm={10} md={10} lg={10} xl={10}>
               <div style={styles.sectionTitle}>
                 <SectionTitle title='Interests' />
               </div>
               <Interests />
             </Grid>
-            <Grid item xs />
+            <Hidden only='xs'>
+              <Grid item sm={1} md={1} lg={1} xl={1} />
+            </Hidden>
           </Grid>
+          <div style={styles.line} />
         </Grid>
-        <Grid item xs />
       </Grid>
+      <Hidden only='xs'>
+        <Grid item sm md={2} lg={3} xl={4} />
+      </Hidden>
     </div>
   )
 }
