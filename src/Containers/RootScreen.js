@@ -2,7 +2,6 @@ import React from 'react'
 import {
   Avatar,
   Footer,
-  Education,
   IconBar,
   Interests,
   ResumeTitle,
@@ -10,76 +9,162 @@ import {
   Skills,
   ExperienceCard
 } from '../Components'
-import { Grid, Typography } from '@material-ui/core'
+import { Hidden, Grid, Typography } from '@material-ui/core'
 import styles from './Styles/RootScreenStyle'
 import ExperienceData from '../data/Experience'
+
+const background = '#012C4C'
+const screenHeight = window.innerHeight
 
 function RootScreen () {
   return (
     <div>
-      <Grid container spacing={8}>
-        <Grid item xs />
-        <Grid item xs={12} sm={6} md={4} lg={4} xl={4}>
-          <div style={styles.heading}>
-            <div style={{ display: 'flex', marginBottom: '5px' }}>
+      <Grid container style={{ flexDirection: 'column' }}>
+        <div
+          style={{
+            display: 'flex',
+            flex: 1,
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexDirection: 'column',
+            backgroundColor: background,
+            height: screenHeight * 0.67,
+            width: '100%'
+          }}
+        >
+          <div style={{ marginBottom: '10px' }}>
+            <ResumeTitle />
+          </div>
+          <Typography
+            variant='subheading'
+            style={{
+              letterSpacing: '1px',
+              color: 'white',
+              marginBottom: '10px'
+            }}
+          >
+            software developer
+          </Typography>
+          <IconBar />
+        </div>
+        {/* Section Start */}
+        <Grid container justify='center'>
+          <Hidden only='xs'>
+            <Grid item />
+          </Hidden>
+          <Grid
+            container
+            xs={10}
+            sm={10}
+            md={8}
+            lg={6}
+            xl={4}
+            alignItems='center'
+            style={{ flexDirection: 'column' }}
+          >
+            <div style={{ paddingTop: 70, marginBottom: 10 }}>
               <Avatar />
-              <div style={{ marginLeft: 10 }} />
-              <div style={{ display: 'flex', flexDirection: 'column' }}>
-                <ResumeTitle />
-                <Typography> Software Developer </Typography>
-              </div>
             </div>
-            <div
-              style={{ display: 'flex', flex: 1, justifyContent: 'flex-end' }}
-            >
-              <IconBar />
+            <div style={{ paddingBottom: 70 }}>
+              <Footer />
             </div>
-          </div>
-          <div style={styles.section}>
-            <Grid item xs />
-            <Grid item xs={12}>
-              <div style={styles.section}>
-                <Footer />
-              </div>
-              <div style={styles.sectionTitle}>
-                <SectionTitle title='Experience' />
-              </div>
-              <div style={styles.section}>
-                {ExperienceData.map((data, i) => (
-                  <div style={{ marginBottom: 10 }}>
-                    <ExperienceCard
-                      headerLeftText={data.position}
-                      headerRightText={data.duration}
-                      cardText={data.cardText}
-                      chips={data.chips}
-                      avatarImage={data.avatarImage}
-                    />
-                  </div>
-                ))}
-              </div>
-            </Grid>
-          </div>
-          <Grid container>
-            <Grid item xs />
-            <Grid item xs={12}>
-              <div style={styles.sectionTitle}>
-                <SectionTitle title='Technical Skills' />
-              </div>
-              <Skills />
-              <div style={styles.sectionTitle}>
-                <SectionTitle title='Education' />
-              </div>
-              <Education />
-              <div style={styles.sectionTitle}>
-                <SectionTitle title='Interests' />
-              </div>
-              <Interests />
-            </Grid>
-            <Grid item xs />
           </Grid>
+          <Hidden only='xs'>
+            <Grid item />
+          </Hidden>
+        </Grid>
+        {/* Section End */}
+      </Grid>
+      {/* Section Start */}
+      <Grid container justify='center' style={{ backgroundColor: '#F8F8F8' }}>
+        <Grid item xs />
+        <Grid
+          container
+          xs={11}
+          sm={10}
+          md={8}
+          lg={6}
+          xl={4}
+          style={{
+            paddingTop: '20px',
+            paddingBottom: '20px',
+            flexDirection: 'column'
+          }}
+        >
+          <div style={styles.sectionTitle}>
+            <SectionTitle title='Experience' />
+          </div>
+          {ExperienceData.map((data, i) => (
+            <div style={{ marginBottom: 10 }}>
+              <ExperienceCard
+                headerLeftText={data.position}
+                headerRightText={data.duration}
+                cardText={data.cardText}
+                chips={data.chips}
+                avatarImage={data.avatarImage}
+              />
+            </div>
+          ))}
         </Grid>
         <Grid item xs />
       </Grid>
+      {/* Section End */}
+      {/* Section Start */}
+      <Grid container justify='center'>
+        <Hidden only='xs'>
+          <Grid item />
+        </Hidden>
+        <Grid
+          container
+          xs={12}
+          sm={10}
+          md={8}
+          lg={6}
+          xl={4}
+          style={{
+            paddingTop: '20px',
+            paddingBottom: '20px',
+            flexDirection: 'column'
+          }}
+        >
+          <div style={styles.sectionTitle}>
+            <SectionTitle title='Skills' />
+          </div>
+          <Skills />
+        </Grid>
+        <Hidden only='xs'>
+          <Grid item />
+        </Hidden>
+      </Grid>
+      {/* Section End */}
+      <Grid container justify='center'>
+        <Hidden only='xs'>
+          <Grid item />
+        </Hidden>
+        <Grid
+          container
+          xs={12}
+          sm={10}
+          md={8}
+          lg={6}
+          xl={4}
+          style={{
+            backgroundColor: background,
+            paddingTop: '20px',
+            paddingBottom: '20px',
+            flexDirection: 'column'
+          }}
+        >
+          <div style={styles.sectionTitle}>
+            <SectionTitle title='Interests' color='white' />
+          </div>
+          <Interests />
+        </Grid>
+        <Hidden only='xs'>
+          <Grid item />
+        </Hidden>
+      </Grid>
+      {/* Section End */}
     </div>
   )
 }

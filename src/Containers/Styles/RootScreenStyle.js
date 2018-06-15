@@ -4,7 +4,7 @@ const styles = {
   heading: {
     minWidth: '400',
     display: 'flex',
-    flexDirection: 'row',
+    flexDirection: 'column',
     marginBottom: '5px',
     borderBottom: '5px solid black'
   },
@@ -23,10 +23,9 @@ const styles = {
     marginBottom: '5px'
   },
   sectionTitle: {
-    justifyContent: 'flex-start',
-    borderBottom: '1px solid black',
-    marginTop: '20px',
-    marginBottom: '15px'
+    display: 'flex',
+    justifyContent: 'center',
+    marginBottom: '10px'
   },
   container: {
     flex: 1

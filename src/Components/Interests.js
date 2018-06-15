@@ -11,11 +11,14 @@ import {
 } from 'mdi-react'
 
 const data = [
-  { image: <CoffeeIcon size={40} />, label: 'Coffee' },
-  { image: <RunFastIcon size={40} />, label: 'Running' },
-  { image: <BeerIcon size={40} />, label: 'Beer' },
-  { image: <ChurchIcon size={40} />, label: 'Church' },
-  { image: <CodeNotEqualVariantIcon size={40} />, label: 'Coding' }
+  { image: <CoffeeIcon size={40} color='white' />, label: 'Coffee' },
+  { image: <RunFastIcon size={40} color='white' />, label: 'Running' },
+  { image: <BeerIcon size={40} color='white' />, label: 'Beer' },
+  { image: <ChurchIcon size={40} color='white' />, label: 'Church' },
+  {
+    image: <CodeNotEqualVariantIcon size={40} color='white' />,
+    label: 'Coding'
+  }
 ]
 
 const Interests = () => (
@@ -23,7 +26,7 @@ const Interests = () => (
     {data.map((x, i) => (
       <div key={i} style={styles.wrapper}>
         {x.image}
-        <Typography>{x.label}</Typography>
+        <Typography style={{ color: 'white' }}>{x.label}</Typography>
       </div>
     ))}
   </div>

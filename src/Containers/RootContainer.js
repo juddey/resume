@@ -6,6 +6,7 @@ import ReduxPersist from '../Config/ReduxPersist'
 import { IntlProvider, addLocaleData } from 'react-intl'
 import en from 'react-intl/locale-data/en'
 import enTranslationMessages from '../Translations/en.json'
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
 
 addLocaleData([...en])
 
@@ -32,6 +33,13 @@ export const translationMessages = {
   // You can add other languages here.
 }
 
+const theme = createMuiTheme({
+  typography: {
+    // Use the Raleway font instead of the default Roboto font.
+    fontFamily: 'Raleway'
+  }
+})
+
 class RootContainer extends Component {
   componentDidMount () {
     // if redux persist is not active fire startup action
@@ -43,7 +51,9 @@ class RootContainer extends Component {
   render (messages) {
     return (
       <IntlProvider locale='en' messages={translationMessages.en}>
-        <Navigation />
+        <MuiThemeProvider theme={theme}>
+          <Navigation />
+        </MuiThemeProvider>
       </IntlProvider>
     )
   }

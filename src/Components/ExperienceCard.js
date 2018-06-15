@@ -41,7 +41,6 @@ class ExperienceCard extends React.Component {
               <div style={styles.titleWrapper}>
                 <div style={styles.title}>
                   <div>{headerLeftText}</div>
-                  <div>{headerRightText}</div>
                 </div>
                 <IconButton onClick={this.handleExpandClick.bind(this)}>
                   {this.state.expanded ? (
@@ -57,6 +56,7 @@ class ExperienceCard extends React.Component {
             {this.state.expanded && (
               <div style={styles.cardStyle}>
                 <CardContent>
+                  <Typography paragraph>{headerRightText}</Typography>
                   <Typography paragraph>{cardText}</Typography>
                   {mapIndexed(
                     (label, idx) => (

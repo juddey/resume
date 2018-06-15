@@ -30,7 +30,7 @@ export default class IconBar extends React.Component {
     return (
       <div>
         <IconButton onClick={this.handleClick.bind(this)}>
-          <EmailOutlineIcon />
+          <EmailOutlineIcon color='white' />
         </IconButton>
         <Popover
           open={Boolean(anchorEl)}
@@ -50,10 +50,10 @@ export default class IconBar extends React.Component {
           </Typography>
         </Popover>
         <IconButton href={'https://github.com/juddey'} target={'_blank'}>
-          <GithubCircleIcon />
+          <GithubCircleIcon color='white' />
         </IconButton>
         <IconButton href={'https://twitter.com/juddeylane'} target={'_blank'}>
-          <TwitterIcon />
+          <TwitterIcon color='white' />
         </IconButton>
       </div>
     )
