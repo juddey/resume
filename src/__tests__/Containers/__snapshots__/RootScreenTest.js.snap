@@ -1,0 +1,1078 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders to snapshot 1`] = `
+<div>
+  <div
+    className="MuiGrid-container-1"
+    style={
+      Object {
+        "flexDirection": "column",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#012C4C",
+          "display": "flex",
+          "flex": 1,
+          "flexDirection": "column",
+          "height": 514.5600000000001,
+          "justifyContent": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": "10px",
+          }
+        }
+      >
+        <h1
+          className="MuiTypography-root-92 MuiTypography-display1-96"
+          style={
+            Object {
+              "color": "white",
+              "letterSpacing": "2px",
+              "textTransform": "uppercase",
+            }
+          }
+        >
+          Justin Lane
+        </h1>
+      </div>
+      <h3
+        className="MuiTypography-root-92 MuiTypography-subheading-99"
+        style={
+          Object {
+            "color": "white",
+            "letterSpacing": "1px",
+            "marginBottom": "10px",
+          }
+        }
+      >
+        software developer
+      </h3>
+      <div>
+        <button
+          className="MuiButtonBase-root-122 MuiIconButton-root-116"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label-121"
+          >
+            <svg
+              className="mdi-icon "
+              fill="white"
+              height={24}
+              viewBox="0 0 24 24"
+              width={24}
+            >
+              <path
+                d="M4,4H20C21.1,4 22,4.9 22,6V18C22,19.1 21.1,20 20,20H4C2.89,20 2,19.1 2,18V6C2,4.89 2.89,4 4,4M12,11L20,6H4L12,11M4,18H20V8.37L12,13.36L4,8.37V18Z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root-125"
+          />
+        </button>
+        <a
+          className="MuiButtonBase-root-122 MuiIconButton-root-116"
+          href="https://github.com/juddey"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex="0"
+          target="_blank"
+        >
+          <span
+            className="MuiIconButton-label-121"
+          >
+            <svg
+              className="mdi-icon "
+              fill="white"
+              height={24}
+              viewBox="0 0 24 24"
+              width={24}
+            >
+              <path
+                d="M12,2C6.48,2 2,6.48 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12C22,6.48 17.52,2 12,2Z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root-125"
+          />
+        </a>
+        <a
+          className="MuiButtonBase-root-122 MuiIconButton-root-116"
+          href="https://twitter.com/juddeylane"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex="0"
+          target="_blank"
+        >
+          <span
+            className="MuiIconButton-label-121"
+          >
+            <svg
+              className="mdi-icon "
+              fill="white"
+              height={24}
+              viewBox="0 0 24 24"
+              width={24}
+            >
+              <path
+                d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root-125"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-container-1 MuiGrid-justify-xs-center-18"
+    >
+      <div
+        className="MuiGrid-item-2"
+      />
+      <div
+        className="MuiGrid-item-2 MuiGrid-grid-xs-10-37 MuiGrid-grid-sm-10-50 MuiGrid-grid-md-8-61 MuiGrid-grid-lg-6-72 MuiGrid-grid-xl-4-83"
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flex": 1,
+              "flexDirection": "column",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "marginBottom": 10,
+                "paddingTop": 70,
+              }
+            }
+          >
+            <div>
+              <div
+                className="MuiAvatar-root-135"
+                style={
+                  Object {
+                    "border": "1px solid black",
+                    "height": 70,
+                    "width": 70,
+                  }
+                }
+              >
+                <img
+                  alt="juddey"
+                  className="MuiAvatar-img-137"
+                  sizes={undefined}
+                  src="avatar.jpg"
+                  srcSet={undefined}
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "paddingBottom": 70,
+              }
+            }
+          >
+            <p
+              className="MuiTypography-root-92 MuiTypography-body1-101"
+              style={
+                Object {
+                  "color": "black",
+                  "maxWidth": "550px",
+                  "textAlign": "center",
+                }
+              }
+            >
+              Reskilled in web and mobile development from a ERP software implementation career, I'm looking for remote-based short to mid term contracts. Rates negotiable.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-2"
+      />
+    </div>
+  </div>
+  <div
+    className="MuiGrid-container-1 MuiGrid-justify-xs-center-18"
+    style={
+      Object {
+        "backgroundColor": "#F8F8F8",
+        "paddingBottom": 50,
+        "paddingTop": 50,
+      }
+    }
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-27"
+    />
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-11-38 MuiGrid-grid-sm-10-50 MuiGrid-grid-md-8-61 MuiGrid-grid-lg-6-72 MuiGrid-grid-xl-4-83"
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "30px",
+          }
+        }
+      >
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+          style={
+            Object {
+              "color": undefined,
+              "textTransform": "uppercase",
+            }
+          }
+        >
+          Experience
+        </h3>
+      </div>
+      <div
+        style={
+          Object {
+            "marginBottom": 10,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "minWidth": 275,
+            }
+          }
+        >
+          <div
+            className="MuiPaper-root-139 MuiPaper-elevation2-143 MuiPaper-rounded-140 MuiCard-root-138"
+          >
+            <div
+              className="MuiCardHeader-root-166"
+            >
+              <div
+                className="MuiCardHeader-avatar-167"
+              >
+                <div
+                  aria-label="tiaki"
+                  className="MuiAvatar-root-135"
+                >
+                  <img
+                    alt="tiaki"
+                    className="MuiAvatar-img-137"
+                    sizes={undefined}
+                    src="tiaki-man.png"
+                    srcSet={undefined}
+                  />
+                </div>
+              </div>
+              <div
+                className="MuiCardHeader-content-169"
+              >
+                <span
+                  className="MuiTypography-root-92 MuiTypography-body2-100 MuiCardHeader-title-170"
+                >
+                  <div
+                    style={
+                      Object {
+                        "display": "flex",
+                        "flex": 1,
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <div
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "marginRight": 4,
+                        }
+                      }
+                    >
+                      <div>
+                        Founder, tiaki.care
+                      </div>
+                    </div>
+                    <button
+                      className="MuiButtonBase-root-122 MuiIconButton-root-116"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex="0"
+                      type="button"
+                    >
+                      <span
+                        className="MuiIconButton-label-121"
+                      >
+                        <svg
+                          className="mdi-icon "
+                          fill="#000"
+                          height={24}
+                          viewBox="0 0 24 24"
+                          width={24}
+                        >
+                          <path
+                            d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        className="MuiTouchRipple-root-125"
+                      />
+                    </button>
+                  </div>
+                </span>
+              </div>
+            </div>
+            <div />
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "marginBottom": 10,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "minWidth": 275,
+            }
+          }
+        >
+          <div
+            className="MuiPaper-root-139 MuiPaper-elevation2-143 MuiPaper-rounded-140 MuiCard-root-138"
+          >
+            <div
+              className="MuiCardHeader-root-166"
+            >
+              <div
+                className="MuiCardHeader-avatar-167"
+              >
+                <div
+                  aria-label="tiaki"
+                  className="MuiAvatar-root-135"
+                >
+                  <img
+                    alt="tiaki"
+                    className="MuiAvatar-img-137"
+                    sizes={undefined}
+                    src="kandid.png"
+                    srcSet={undefined}
+                  />
+                </div>
+              </div>
+              <div
+                className="MuiCardHeader-content-169"
+              >
+                <span
+                  className="MuiTypography-root-92 MuiTypography-body2-100 MuiCardHeader-title-170"
+                >
+                  <div
+                    style={
+                      Object {
+                        "display": "flex",
+                        "flex": 1,
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <div
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "marginRight": 4,
+                        }
+                      }
+                    >
+                      <div>
+                        Founder, kandid.nz
+                      </div>
+                    </div>
+                    <button
+                      className="MuiButtonBase-root-122 MuiIconButton-root-116"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex="0"
+                      type="button"
+                    >
+                      <span
+                        className="MuiIconButton-label-121"
+                      >
+                        <svg
+                          className="mdi-icon "
+                          fill="#000"
+                          height={24}
+                          viewBox="0 0 24 24"
+                          width={24}
+                        >
+                          <path
+                            d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        className="MuiTouchRipple-root-125"
+                      />
+                    </button>
+                  </div>
+                </span>
+              </div>
+            </div>
+            <div />
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "marginBottom": 10,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "minWidth": 275,
+            }
+          }
+        >
+          <div
+            className="MuiPaper-root-139 MuiPaper-elevation2-143 MuiPaper-rounded-140 MuiCard-root-138"
+          >
+            <div
+              className="MuiCardHeader-root-166"
+            >
+              <div
+                className="MuiCardHeader-avatar-167"
+              >
+                <div
+                  aria-label="tiaki"
+                  className="MuiAvatar-root-135"
+                >
+                  <img
+                    alt="tiaki"
+                    className="MuiAvatar-img-137"
+                    sizes={undefined}
+                    src="school.png"
+                    srcSet={undefined}
+                  />
+                </div>
+              </div>
+              <div
+                className="MuiCardHeader-content-169"
+              >
+                <span
+                  className="MuiTypography-root-92 MuiTypography-body2-100 MuiCardHeader-title-170"
+                >
+                  <div
+                    style={
+                      Object {
+                        "display": "flex",
+                        "flex": 1,
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <div
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flex": 1,
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "marginRight": 4,
+                        }
+                      }
+                    >
+                      <div>
+                        Various Educational Institutions
+                      </div>
+                    </div>
+                    <button
+                      className="MuiButtonBase-root-122 MuiIconButton-root-116"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex="0"
+                      type="button"
+                    >
+                      <span
+                        className="MuiIconButton-label-121"
+                      >
+                        <svg
+                          className="mdi-icon "
+                          fill="#000"
+                          height={24}
+                          viewBox="0 0 24 24"
+                          width={24}
+                        >
+                          <path
+                            d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
+                          />
+                        </svg>
+                      </span>
+                      <span
+                        className="MuiTouchRipple-root-125"
+                      />
+                    </button>
+                  </div>
+                </span>
+              </div>
+            </div>
+            <div />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-27"
+    />
+  </div>
+  <div
+    className="MuiGrid-container-1 MuiGrid-justify-xs-center-18"
+    style={
+      Object {
+        "paddingBottom": 50,
+        "paddingTop": 50,
+      }
+    }
+  >
+    <div
+      className="MuiGrid-item-2"
+    />
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-10-50 MuiGrid-grid-md-8-61 MuiGrid-grid-lg-6-72 MuiGrid-grid-xl-4-83"
+      style={
+        Object {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "30px",
+          }
+        }
+      >
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+          style={
+            Object {
+              "color": undefined,
+              "textTransform": "uppercase",
+            }
+          }
+        >
+          Skills
+        </h3>
+      </div>
+      <div>
+        <div
+          className="Skills-container-172"
+        >
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-3-30 MuiGrid-grid-md-2-55"
+          >
+            <p
+              className="MuiTypography-root-92 MuiTypography-body1-101"
+            >
+              React Native
+            </p>
+          </div>
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-9-36 MuiGrid-grid-md-10-63"
+          >
+            <div
+              aria-valuenow={85}
+              className="MuiLinearProgress-root-175 MuiLinearProgress-colorPrimary-176 Skills-colorPrimary-173"
+              role="progressbar"
+            >
+              <div
+                className="MuiLinearProgress-bar-183 MuiLinearProgress-barColorPrimary-184 Skills-barColorPrimary-174 MuiLinearProgress-bar1Determinate-188"
+                style={
+                  Object {
+                    "transform": "scaleX(0.85)",
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="Skills-container-172"
+        >
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-3-30 MuiGrid-grid-md-2-55"
+          >
+            <p
+              className="MuiTypography-root-92 MuiTypography-body1-101"
+            >
+              React
+            </p>
+          </div>
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-9-36 MuiGrid-grid-md-10-63"
+          >
+            <div
+              aria-valuenow={70}
+              className="MuiLinearProgress-root-175 MuiLinearProgress-colorPrimary-176 Skills-colorPrimary-173"
+              role="progressbar"
+            >
+              <div
+                className="MuiLinearProgress-bar-183 MuiLinearProgress-barColorPrimary-184 Skills-barColorPrimary-174 MuiLinearProgress-bar1Determinate-188"
+                style={
+                  Object {
+                    "transform": "scaleX(0.7)",
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="Skills-container-172"
+        >
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-3-30 MuiGrid-grid-md-2-55"
+          >
+            <p
+              className="MuiTypography-root-92 MuiTypography-body1-101"
+            >
+              HTML
+            </p>
+          </div>
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-9-36 MuiGrid-grid-md-10-63"
+          >
+            <div
+              aria-valuenow={45}
+              className="MuiLinearProgress-root-175 MuiLinearProgress-colorPrimary-176 Skills-colorPrimary-173"
+              role="progressbar"
+            >
+              <div
+                className="MuiLinearProgress-bar-183 MuiLinearProgress-barColorPrimary-184 Skills-barColorPrimary-174 MuiLinearProgress-bar1Determinate-188"
+                style={
+                  Object {
+                    "transform": "scaleX(0.45)",
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="Skills-container-172"
+        >
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-3-30 MuiGrid-grid-md-2-55"
+          >
+            <p
+              className="MuiTypography-root-92 MuiTypography-body1-101"
+            >
+              JavaScript
+            </p>
+          </div>
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-9-36 MuiGrid-grid-md-10-63"
+          >
+            <div
+              aria-valuenow={65}
+              className="MuiLinearProgress-root-175 MuiLinearProgress-colorPrimary-176 Skills-colorPrimary-173"
+              role="progressbar"
+            >
+              <div
+                className="MuiLinearProgress-bar-183 MuiLinearProgress-barColorPrimary-184 Skills-barColorPrimary-174 MuiLinearProgress-bar1Determinate-188"
+                style={
+                  Object {
+                    "transform": "scaleX(0.65)",
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="Skills-container-172"
+        >
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-3-30 MuiGrid-grid-md-2-55"
+          >
+            <p
+              className="MuiTypography-root-92 MuiTypography-body1-101"
+            >
+              Ruby
+            </p>
+          </div>
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-9-36 MuiGrid-grid-md-10-63"
+          >
+            <div
+              aria-valuenow={80}
+              className="MuiLinearProgress-root-175 MuiLinearProgress-colorPrimary-176 Skills-colorPrimary-173"
+              role="progressbar"
+            >
+              <div
+                className="MuiLinearProgress-bar-183 MuiLinearProgress-barColorPrimary-184 Skills-barColorPrimary-174 MuiLinearProgress-bar1Determinate-188"
+                style={
+                  Object {
+                    "transform": "scaleX(0.8)",
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="Skills-container-172"
+        >
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-3-30 MuiGrid-grid-md-2-55"
+          >
+            <p
+              className="MuiTypography-root-92 MuiTypography-body1-101"
+            >
+              Elixir
+            </p>
+          </div>
+          <div
+            className="MuiGrid-item-2 MuiGrid-grid-xs-9-36 MuiGrid-grid-md-10-63"
+          >
+            <div
+              aria-valuenow={70}
+              className="MuiLinearProgress-root-175 MuiLinearProgress-colorPrimary-176 Skills-colorPrimary-173"
+              role="progressbar"
+            >
+              <div
+                className="MuiLinearProgress-bar-183 MuiLinearProgress-barColorPrimary-184 Skills-barColorPrimary-174 MuiLinearProgress-bar1Determinate-188"
+                style={
+                  Object {
+                    "transform": "scaleX(0.7)",
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2"
+    />
+  </div>
+  <div
+    className="MuiGrid-container-1 MuiGrid-justify-xs-center-18"
+  >
+    <div
+      className="MuiGrid-item-2"
+    />
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-10-50 MuiGrid-grid-md-8-61 MuiGrid-grid-lg-6-72 MuiGrid-grid-xl-4-83"
+      style={
+        Object {
+          "backgroundColor": "#012C4C",
+          "flexDirection": "column",
+          "paddingBottom": "50px",
+          "paddingTop": "50px",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "justifyContent": "center",
+            "marginBottom": "30px",
+          }
+        }
+      >
+        <h3
+          className="MuiTypography-root-92 MuiTypography-subheading-99"
+          style={
+            Object {
+              "color": "white",
+              "textTransform": "uppercase",
+            }
+          }
+        >
+          Interests
+        </h3>
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flexWrap": "wrap",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "height": 75,
+              "width": 75,
+            }
+          }
+        >
+          <svg
+            className="mdi-icon "
+            fill="white"
+            height={40}
+            viewBox="0 0 24 24"
+            width={40}
+          >
+            <path
+              d="M2,21H20V19H2M20,8H18V5H20M20,3H4V13C4,15.21 5.79,17 8,17H14C16.21,17 18,15.21 18,13V10H20C21.1,10 22,9.1 22,8V5C22,3.89 21.1,3 20,3Z"
+            />
+          </svg>
+          <p
+            className="MuiTypography-root-92 MuiTypography-body1-101"
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+            Coffee
+          </p>
+        </div>
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "height": 75,
+              "width": 75,
+            }
+          }
+        >
+          <svg
+            className="mdi-icon "
+            fill="white"
+            height={40}
+            viewBox="0 0 24 24"
+            width={40}
+          >
+            <path
+              d="M16.5,5.5C17.6,5.5 18.5,4.6 18.5,3.5C18.5,2.4 17.6,1.5 16.5,1.5C15.4,1.5 14.5,2.4 14.5,3.5C14.5,4.6 15.4,5.5 16.5,5.5M12.9,19.4L13.9,15L16,17V23H18V15.5L15.9,13.5L16.5,10.5C17.89,12.09 19.89,13 22,13V11C20.24,11.03 18.6,10.11 17.7,8.6L16.7,7C16.34,6.4 15.7,6 15,6C14.7,6 14.5,6.1 14.2,6.1L9,8.3V13H11V9.6L12.8,8.9L11.2,17L6.3,16L5.9,18L12.9,19.4M4,9C3.45,9 3,8.55 3,8C3,7.45 3.45,7 4,7H7V9H4M5,5C4.45,5 4,4.55 4,4C4,3.45 4.45,3 5,3H10V5H5M3,13C2.45,13 2,12.55 2,12C2,11.45 2.45,11 3,11H7V13H3Z"
+            />
+          </svg>
+          <p
+            className="MuiTypography-root-92 MuiTypography-body1-101"
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+            Running
+          </p>
+        </div>
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "height": 75,
+              "width": 75,
+            }
+          }
+        >
+          <svg
+            className="mdi-icon "
+            fill="white"
+            height={40}
+            viewBox="0 0 24 24"
+            width={40}
+          >
+            <path
+              d="M4,2H19L17,22H6L4,2M6.2,4L7.8,20H8.8L7.43,6.34C8.5,6 9.89,5.89 11,7C12.56,8.56 15.33,7.69 16.5,7.23L16.8,4H6.2Z"
+            />
+          </svg>
+          <p
+            className="MuiTypography-root-92 MuiTypography-body1-101"
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+            Beer
+          </p>
+        </div>
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "height": 75,
+              "width": 75,
+            }
+          }
+        >
+          <svg
+            className="mdi-icon "
+            fill="white"
+            height={40}
+            viewBox="0 0 24 24"
+            width={40}
+          >
+            <path
+              d="M11,2H13V4H15V6H13V9.4L22,13V15L20,14.2V22H14V17C14,15.9 13.1,15 12,15C10.9,15 10,15.9 10,17V22H4V14.2L2,15V13L11,9.4V6H9V4H11V2M6,20H8V15L7,14L6,15V20M16,20H18V15L17,14L16,15V20Z"
+            />
+          </svg>
+          <p
+            className="MuiTypography-root-92 MuiTypography-body1-101"
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+            Church
+          </p>
+        </div>
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "column",
+              "height": 75,
+              "width": 75,
+            }
+          }
+        >
+          <svg
+            className="mdi-icon "
+            fill="white"
+            height={40}
+            viewBox="0 0 24 24"
+            width={40}
+          >
+            <path
+              d="M11,6.5V9.33L8.33,12L11,14.67V17.5L5.5,12M13,6.43L18.57,12L13,17.57V14.74L15.74,12L13,9.26M5,3C3.89,3 3,3.9 3,5V19C3,20.1 3.9,21 5,21H19C20.1,21 21,20.1 21,19V5C21,3.9 20.1,3 19,3H5Z"
+            />
+          </svg>
+          <p
+            className="MuiTypography-root-92 MuiTypography-body1-101"
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          >
+            Coding
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2"
+    />
+  </div>
+</div>
+`;
