@@ -52,21 +52,21 @@ function RootScreen () {
           <Hidden only='xs'>
             <Grid item />
           </Hidden>
-          <Grid
-            container
-            xs={10}
-            sm={10}
-            md={8}
-            lg={6}
-            xl={4}
-            alignItems='center'
-            style={{ flexDirection: 'column' }}
-          >
-            <div style={{ paddingTop: 70, marginBottom: 10 }}>
-              <Avatar />
-            </div>
-            <div style={{ paddingBottom: 70 }}>
-              <Footer />
+          <Grid item xs={10} sm={10} md={8} lg={6} xl={4}>
+            <div
+              style={{
+                display: 'flex',
+                flex: 1,
+                alignItems: 'center',
+                flexDirection: 'column'
+              }}
+            >
+              <div style={{ paddingTop: 70, marginBottom: 10 }}>
+                <Avatar />
+              </div>
+              <div style={{ paddingBottom: 70 }}>
+                <Footer />
+              </div>
             </div>
           </Grid>
           <Hidden only='xs'>
@@ -87,7 +87,7 @@ function RootScreen () {
       >
         <Grid item xs />
         <Grid
-          container
+          item
           xs={11}
           sm={10}
           md={8}
@@ -101,7 +101,7 @@ function RootScreen () {
             <SectionTitle title='Experience' />
           </div>
           {ExperienceData.map((data, i) => (
-            <div style={{ marginBottom: 10 }}>
+            <div key={i} style={{ marginBottom: 10 }}>
               <ExperienceCard
                 headerLeftText={data.position}
                 headerRightText={data.duration}
@@ -125,7 +125,7 @@ function RootScreen () {
           <Grid item />
         </Hidden>
         <Grid
-          container
+          item
           xs={12}
           sm={10}
           md={8}
@@ -150,7 +150,7 @@ function RootScreen () {
           <Grid item />
         </Hidden>
         <Grid
-          container
+          item
           xs={12}
           sm={10}
           md={8}

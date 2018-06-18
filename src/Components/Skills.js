@@ -29,7 +29,6 @@ const data = [
 
 function Skills (props) {
   const { classes } = props
-  console.log(classes.bar)
   return (
     <div>
       {data.map((x, i) => (
