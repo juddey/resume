@@ -1,7 +1,7 @@
 // Component Index
 import ExperienceCard from './ExperienceCard'
 import Interests from './Interests'
-import Footer from './Footer'
+import About from './About'
 import Education from './Education'
 import Skills from './Skills'
 import Timeline from './Timeline'
@@ -15,7 +15,7 @@ import Header from './Header'
 export {
   ExperienceCard,
   Interests,
-  Footer,
+  About,
   Education,
   Skills,
   Timeline,

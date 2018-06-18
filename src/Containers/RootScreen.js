@@ -1,7 +1,7 @@
 import React from 'react'
 import {
   Avatar,
-  Footer,
+  About,
   IconBar,
   Interests,
   ResumeTitle,
@@ -65,7 +65,7 @@ function RootScreen () {
                 <Avatar />
               </div>
               <div style={{ paddingBottom: 70 }}>
-                <Footer />
+                <About />
               </div>
             </div>
           </Grid>

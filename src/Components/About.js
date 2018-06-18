@@ -1,8 +1,7 @@
 import React from 'react'
 import Typography from '@material-ui/core/Typography'
-// import styles from './Styles/EducationStyle'
 
-const Footer = () => (
+const About = () => (
   <Typography
     style={{ maxWidth: '550px', color: 'black', textAlign: 'center' }}
   >
@@ -11,4 +10,4 @@ const Footer = () => (
     negotiable.
   </Typography>
 )
-export default Footer
+export default About

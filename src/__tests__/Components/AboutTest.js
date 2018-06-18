@@ -3,10 +3,10 @@ import {
   createComponentWithIntl,
   shallowWithIntl
 } from '../../../src/Support/Utils'
-import Footer from '../../Components/Footer'
+import About from '../../Components/About'
 
 const div = document.createElement('div')
-const wrapper = shallowWithIntl(<Footer />)
+const wrapper = shallowWithIntl(<About />)
 
 test('component exists', () => {
   expect(wrapper.length).toBe(1)
@@ -18,6 +18,6 @@ test('component structure', () => {
 })
 
 test('renders to snapshot', () => {
-  const tree = createComponentWithIntl(<Footer />, div).toJSON()
+  const tree = createComponentWithIntl(<About />, div).toJSON()
   expect(tree).toMatchSnapshot()
 })
