@@ -25,7 +25,7 @@ const styles = {
   sectionTitle: {
     display: 'flex',
     justifyContent: 'center',
-    marginBottom: '10px'
+    marginBottom: '30px'
   },
   container: {
     flex: 1

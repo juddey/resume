@@ -2,7 +2,14 @@
 
 exports[`renders to snapshot 1`] = `
 <h1
-  className="MuiTypography-root-1 MuiTypography-headline-6"
+  className="MuiTypography-root-1 MuiTypography-display1-5"
+  style={
+    Object {
+      "color": "white",
+      "letterSpacing": "2px",
+      "textTransform": "uppercase",
+    }
+  }
 >
   Justin Lane
 </h1>

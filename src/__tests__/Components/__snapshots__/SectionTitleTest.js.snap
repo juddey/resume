@@ -1,9 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders to snapshot 1`] = `
-<h2
-  className="MuiTypography-root-1 MuiTypography-title-7"
+<h3
+  className="MuiTypography-root-1 MuiTypography-subheading-8"
+  style={
+    Object {
+      "color": undefined,
+      "textTransform": "uppercase",
+    }
+  }
 >
   Section Title Component
-</h2>
+</h3>
 `;

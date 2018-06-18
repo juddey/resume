@@ -13,7 +13,7 @@ test('component exists', () => {
 })
 
 test('component structure', () => {
-  expect(wrapper.name()).toEqual('WithStyles(Paper)')
+  expect(wrapper.name()).toEqual('WithStyles(Typography)')
   expect(wrapper.children().length).toEqual(1)
 })
 

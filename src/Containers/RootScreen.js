@@ -76,7 +76,15 @@ function RootScreen () {
         {/* Section End */}
       </Grid>
       {/* Section Start */}
-      <Grid container justify='center' style={{ backgroundColor: '#F8F8F8' }}>
+      <Grid
+        container
+        justify='center'
+        style={{
+          paddingTop: 50,
+          paddingBottom: 50,
+          backgroundColor: '#F8F8F8'
+        }}
+      >
         <Grid item xs />
         <Grid
           container
@@ -86,8 +94,6 @@ function RootScreen () {
           lg={6}
           xl={4}
           style={{
-            paddingTop: '20px',
-            paddingBottom: '20px',
             flexDirection: 'column'
           }}
         >
@@ -110,7 +116,11 @@ function RootScreen () {
       </Grid>
       {/* Section End */}
       {/* Section Start */}
-      <Grid container justify='center'>
+      <Grid
+        container
+        justify='center'
+        style={{ paddingTop: 50, paddingBottom: 50 }}
+      >
         <Hidden only='xs'>
           <Grid item />
         </Hidden>
@@ -122,8 +132,6 @@ function RootScreen () {
           lg={6}
           xl={4}
           style={{
-            paddingTop: '20px',
-            paddingBottom: '20px',
             flexDirection: 'column'
           }}
         >
@@ -150,8 +158,8 @@ function RootScreen () {
           xl={4}
           style={{
             backgroundColor: background,
-            paddingTop: '20px',
-            paddingBottom: '20px',
+            paddingTop: '50px',
+            paddingBottom: '50px',
             flexDirection: 'column'
           }}
         >

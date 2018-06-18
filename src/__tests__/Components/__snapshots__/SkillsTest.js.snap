@@ -3,34 +3,27 @@
 exports[`renders to snapshot 1`] = `
 <div>
   <div
-    style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "fontFamily": "Roboto",
-      }
-    }
+    className="Skills-container-1"
   >
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-2-29"
+      className="MuiGrid-item-5 MuiGrid-grid-xs-3-33 MuiGrid-grid-md-2-58"
     >
       <p
-        className="MuiTypography-root-92 MuiTypography-body1-101"
+        className="MuiTypography-root-95 MuiTypography-body1-104"
       >
-         
         React Native
       </p>
     </div>
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-10-37"
+      className="MuiGrid-item-5 MuiGrid-grid-xs-9-39 MuiGrid-grid-md-10-66"
     >
       <div
         aria-valuenow={85}
-        className="MuiLinearProgress-root-116 MuiLinearProgress-colorPrimary-117"
+        className="MuiLinearProgress-root-119 MuiLinearProgress-colorPrimary-120 Skills-colorPrimary-2"
         role="progressbar"
       >
         <div
-          className="MuiLinearProgress-bar-124 MuiLinearProgress-barColorPrimary-125 MuiLinearProgress-bar1Determinate-129"
+          className="MuiLinearProgress-bar-127 MuiLinearProgress-barColorPrimary-128 Skills-barColorPrimary-3 MuiLinearProgress-bar1Determinate-132"
           style={
             Object {
               "transform": "scaleX(0.85)",
@@ -41,34 +34,27 @@ exports[`renders to snapshot 1`] = `
     </div>
   </div>
   <div
-    style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "fontFamily": "Roboto",
-      }
-    }
+    className="Skills-container-1"
   >
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-2-29"
+      className="MuiGrid-item-5 MuiGrid-grid-xs-3-33 MuiGrid-grid-md-2-58"
     >
       <p
-        className="MuiTypography-root-92 MuiTypography-body1-101"
+        className="MuiTypography-root-95 MuiTypography-body1-104"
       >
-         
         React
       </p>
     </div>
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-10-37"
+      className="MuiGrid-item-5 MuiGrid-grid-xs-9-39 MuiGrid-grid-md-10-66"
     >
       <div
         aria-valuenow={70}
-        className="MuiLinearProgress-root-116 MuiLinearProgress-colorPrimary-117"
+        className="MuiLinearProgress-root-119 MuiLinearProgress-colorPrimary-120 Skills-colorPrimary-2"
         role="progressbar"
       >
         <div
-          className="MuiLinearProgress-bar-124 MuiLinearProgress-barColorPrimary-125 MuiLinearProgress-bar1Determinate-129"
+          className="MuiLinearProgress-bar-127 MuiLinearProgress-barColorPrimary-128 Skills-barColorPrimary-3 MuiLinearProgress-bar1Determinate-132"
           style={
             Object {
               "transform": "scaleX(0.7)",
@@ -79,34 +65,27 @@ exports[`renders to snapshot 1`] = `
     </div>
   </div>
   <div
-    style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "fontFamily": "Roboto",
-      }
-    }
+    className="Skills-container-1"
   >
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-2-29"
+      className="MuiGrid-item-5 MuiGrid-grid-xs-3-33 MuiGrid-grid-md-2-58"
     >
       <p
-        className="MuiTypography-root-92 MuiTypography-body1-101"
+        className="MuiTypography-root-95 MuiTypography-body1-104"
       >
-         
         HTML
       </p>
     </div>
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-10-37"
+      className="MuiGrid-item-5 MuiGrid-grid-xs-9-39 MuiGrid-grid-md-10-66"
     >
       <div
         aria-valuenow={45}
-        className="MuiLinearProgress-root-116 MuiLinearProgress-colorPrimary-117"
+        className="MuiLinearProgress-root-119 MuiLinearProgress-colorPrimary-120 Skills-colorPrimary-2"
         role="progressbar"
       >
         <div
-          className="MuiLinearProgress-bar-124 MuiLinearProgress-barColorPrimary-125 MuiLinearProgress-bar1Determinate-129"
+          className="MuiLinearProgress-bar-127 MuiLinearProgress-barColorPrimary-128 Skills-barColorPrimary-3 MuiLinearProgress-bar1Determinate-132"
           style={
             Object {
               "transform": "scaleX(0.45)",
@@ -117,34 +96,27 @@ exports[`renders to snapshot 1`] = `
     </div>
   </div>
   <div
-    style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "fontFamily": "Roboto",
-      }
-    }
+    className="Skills-container-1"
   >
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-2-29"
+      className="MuiGrid-item-5 MuiGrid-grid-xs-3-33 MuiGrid-grid-md-2-58"
     >
       <p
-        className="MuiTypography-root-92 MuiTypography-body1-101"
+        className="MuiTypography-root-95 MuiTypography-body1-104"
       >
-         
         JavaScript
       </p>
     </div>
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-10-37"
+      className="MuiGrid-item-5 MuiGrid-grid-xs-9-39 MuiGrid-grid-md-10-66"
     >
       <div
         aria-valuenow={65}
-        className="MuiLinearProgress-root-116 MuiLinearProgress-colorPrimary-117"
+        className="MuiLinearProgress-root-119 MuiLinearProgress-colorPrimary-120 Skills-colorPrimary-2"
         role="progressbar"
       >
         <div
-          className="MuiLinearProgress-bar-124 MuiLinearProgress-barColorPrimary-125 MuiLinearProgress-bar1Determinate-129"
+          className="MuiLinearProgress-bar-127 MuiLinearProgress-barColorPrimary-128 Skills-barColorPrimary-3 MuiLinearProgress-bar1Determinate-132"
           style={
             Object {
               "transform": "scaleX(0.65)",
@@ -155,34 +127,27 @@ exports[`renders to snapshot 1`] = `
     </div>
   </div>
   <div
-    style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "fontFamily": "Roboto",
-      }
-    }
+    className="Skills-container-1"
   >
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-2-29"
+      className="MuiGrid-item-5 MuiGrid-grid-xs-3-33 MuiGrid-grid-md-2-58"
     >
       <p
-        className="MuiTypography-root-92 MuiTypography-body1-101"
+        className="MuiTypography-root-95 MuiTypography-body1-104"
       >
-         
         Ruby
       </p>
     </div>
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-10-37"
+      className="MuiGrid-item-5 MuiGrid-grid-xs-9-39 MuiGrid-grid-md-10-66"
     >
       <div
         aria-valuenow={80}
-        className="MuiLinearProgress-root-116 MuiLinearProgress-colorPrimary-117"
+        className="MuiLinearProgress-root-119 MuiLinearProgress-colorPrimary-120 Skills-colorPrimary-2"
         role="progressbar"
       >
         <div
-          className="MuiLinearProgress-bar-124 MuiLinearProgress-barColorPrimary-125 MuiLinearProgress-bar1Determinate-129"
+          className="MuiLinearProgress-bar-127 MuiLinearProgress-barColorPrimary-128 Skills-barColorPrimary-3 MuiLinearProgress-bar1Determinate-132"
           style={
             Object {
               "transform": "scaleX(0.8)",
@@ -193,34 +158,27 @@ exports[`renders to snapshot 1`] = `
     </div>
   </div>
   <div
-    style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "fontFamily": "Roboto",
-      }
-    }
+    className="Skills-container-1"
   >
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-2-29"
+      className="MuiGrid-item-5 MuiGrid-grid-xs-3-33 MuiGrid-grid-md-2-58"
     >
       <p
-        className="MuiTypography-root-92 MuiTypography-body1-101"
+        className="MuiTypography-root-95 MuiTypography-body1-104"
       >
-         
         Elixir
       </p>
     </div>
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-10-37"
+      className="MuiGrid-item-5 MuiGrid-grid-xs-9-39 MuiGrid-grid-md-10-66"
     >
       <div
         aria-valuenow={70}
-        className="MuiLinearProgress-root-116 MuiLinearProgress-colorPrimary-117"
+        className="MuiLinearProgress-root-119 MuiLinearProgress-colorPrimary-120 Skills-colorPrimary-2"
         role="progressbar"
       >
         <div
-          className="MuiLinearProgress-bar-124 MuiLinearProgress-barColorPrimary-125 MuiLinearProgress-bar1Determinate-129"
+          className="MuiLinearProgress-bar-127 MuiLinearProgress-barColorPrimary-128 Skills-barColorPrimary-3 MuiLinearProgress-bar1Determinate-132"
           style={
             Object {
               "transform": "scaleX(0.7)",

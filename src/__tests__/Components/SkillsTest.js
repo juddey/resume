@@ -13,8 +13,8 @@ test('component exists', () => {
 })
 
 test('component structure', () => {
-  expect(wrapper.name()).toEqual('div')
-  expect(wrapper.children().length).toEqual(6)
+  expect(wrapper.name()).toEqual('Skills')
+  expect(wrapper.children().length).toEqual(0)
 })
 
 test('renders to snapshot', () => {

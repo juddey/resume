@@ -50,7 +50,9 @@ exports[`renders to snapshot 1`] = `
             Object {
               "background": "#e9f0f5",
               "border": "2px solid #6fba1c",
+              "borderColor": "#757575",
               "borderRadius": "50%",
+              "color": "#757575",
               "display": "flex",
               "height": 30,
               "left": 0,
@@ -76,7 +78,7 @@ exports[`renders to snapshot 1`] = `
           >
             <svg
               className="mdi-icon "
-              fill="#6fba1c"
+              fill="#000"
               height={24}
               viewBox="0 0 24 24"
               width={24}
@@ -90,8 +92,6 @@ exports[`renders to snapshot 1`] = `
         <div
           style={
             Object {
-              "backgroundColor": "rgb(255, 255, 255)",
-              "boxShadow": "rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px",
               "position": "relative",
             }
           }
@@ -107,13 +107,7 @@ exports[`renders to snapshot 1`] = `
             }
           />
           <div
-            style={
-              Object {
-                "backgroundColor": "#7BB1EA",
-                "color": "#fff",
-                "padding": 10,
-              }
-            }
+            style={Object {}}
           >
             <div
               style={Object {}}
@@ -123,7 +117,7 @@ exports[`renders to snapshot 1`] = `
             <div
               style={
                 Object {
-                  "color": "#FFFFFF",
+                  "color": "#777",
                   "fontSize": "85%",
                   "marginTop": 2,
                 }
@@ -145,10 +139,12 @@ exports[`renders to snapshot 1`] = `
             style={
               Object {
                 "backgroundColor": "#ffffff",
+                "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
                 "lineHeight": 1.6,
                 "marginBottom": "1em",
-                "minHeight": 40,
-                "padding": 10,
+                "marginTop": "1em",
+                "padding": "0.5em 1em",
+                "width": "98%",
               }
             }
           >
@@ -256,7 +252,9 @@ exports[`renders to snapshot 1`] = `
             Object {
               "background": "#e9f0f5",
               "border": "2px solid #6fba1c",
+              "borderColor": "#757575",
               "borderRadius": "50%",
+              "color": "#757575",
               "display": "flex",
               "height": 30,
               "left": 0,
@@ -282,7 +280,7 @@ exports[`renders to snapshot 1`] = `
           >
             <svg
               className="mdi-icon "
-              fill="#6fba1c"
+              fill="#000"
               height={24}
               viewBox="0 0 24 24"
               width={24}
@@ -296,8 +294,6 @@ exports[`renders to snapshot 1`] = `
         <div
           style={
             Object {
-              "backgroundColor": "rgb(255, 255, 255)",
-              "boxShadow": "rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px",
               "position": "relative",
             }
           }
@@ -313,13 +309,7 @@ exports[`renders to snapshot 1`] = `
             }
           />
           <div
-            style={
-              Object {
-                "backgroundColor": "#7BB1EA",
-                "color": "#fff",
-                "padding": 10,
-              }
-            }
+            style={Object {}}
           >
             <div
               style={Object {}}
@@ -329,7 +319,7 @@ exports[`renders to snapshot 1`] = `
             <div
               style={
                 Object {
-                  "color": "#FFFFFF",
+                  "color": "#777",
                   "fontSize": "85%",
                   "marginTop": 2,
                 }
@@ -351,10 +341,12 @@ exports[`renders to snapshot 1`] = `
             style={
               Object {
                 "backgroundColor": "#ffffff",
+                "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
                 "lineHeight": 1.6,
                 "marginBottom": "1em",
-                "minHeight": 40,
-                "padding": 10,
+                "marginTop": "1em",
+                "padding": "0.5em 1em",
+                "width": "98%",
               }
             }
           >
@@ -435,7 +427,9 @@ exports[`renders to snapshot 1`] = `
             Object {
               "background": "#e9f0f5",
               "border": "2px solid #6fba1c",
+              "borderColor": "#757575",
               "borderRadius": "50%",
+              "color": "#757575",
               "display": "flex",
               "height": 30,
               "marginLeft": 1,
@@ -511,7 +505,9 @@ exports[`renders to snapshot 1`] = `
             Object {
               "background": "#e9f0f5",
               "border": "2px solid #6fba1c",
+              "borderColor": "#757575",
               "borderRadius": "50%",
+              "color": "#757575",
               "display": "flex",
               "height": 30,
               "left": 0,
@@ -537,7 +533,7 @@ exports[`renders to snapshot 1`] = `
           >
             <svg
               className="mdi-icon "
-              fill="#6fba1c"
+              fill="#000"
               height={24}
               viewBox="0 0 24 24"
               width={24}
@@ -551,8 +547,6 @@ exports[`renders to snapshot 1`] = `
         <div
           style={
             Object {
-              "backgroundColor": "rgb(255, 255, 255)",
-              "boxShadow": "rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px",
               "position": "relative",
             }
           }
@@ -568,13 +562,7 @@ exports[`renders to snapshot 1`] = `
             }
           />
           <div
-            style={
-              Object {
-                "backgroundColor": "#7BB1EA",
-                "color": "#fff",
-                "padding": 10,
-              }
-            }
+            style={Object {}}
           >
             <div
               style={Object {}}
@@ -584,7 +572,7 @@ exports[`renders to snapshot 1`] = `
             <div
               style={
                 Object {
-                  "color": "#FFFFFF",
+                  "color": "#777",
                   "fontSize": "85%",
                   "marginTop": 2,
                 }
@@ -606,22 +594,27 @@ exports[`renders to snapshot 1`] = `
             style={
               Object {
                 "backgroundColor": "#ffffff",
+                "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1)",
                 "lineHeight": 1.6,
                 "marginBottom": "1em",
-                "minHeight": 40,
-                "padding": 10,
+                "marginTop": "1em",
+                "padding": "0.5em 1em",
+                "width": "98%",
               }
             }
           >
             <p>
-              Provided Process Improvement, Business Analysis, Software Design and System Design and Development Services for 
+              Provided Process Improvement, Business Analysis, Software Design and System Design and Development Services for
+               
               <a
                 href="https://en.wikipedia.org/wiki/PeopleSoft"
                 target="#_blank"
               >
-                 PeopleSoft
+                 
+                PeopleSoft
               </a>
-               Customers.
+               
+              Customers.
             </p>
             <div
               style={

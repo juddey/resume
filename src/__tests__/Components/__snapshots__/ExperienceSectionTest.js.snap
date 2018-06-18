@@ -5,7 +5,6 @@ exports[`renders to snapshot 1`] = `
   style={
     Object {
       "flex": 1,
-      "paddingTop": 15,
     }
   }
 >

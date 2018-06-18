@@ -1,10 +1,9 @@
-// import { Colors } from '../../Themes/'
+import { withStyles } from '@material-ui/core'
 
 const styles = {
   container: {
-    fontFamily: 'Roboto',
     display: 'flex',
     alignItems: 'center'
   }
 }
-export default styles
+export default withStyles(styles)

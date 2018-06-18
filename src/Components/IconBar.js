@@ -38,14 +38,14 @@ export default class IconBar extends React.Component {
           onClose={this.handleClose.bind(this)}
           anchorOrigin={{
             vertical: 'center',
-            horizontal: 'left'
+            horizontal: 'center'
           }}
           transformOrigin={{
             vertical: 'center',
-            horizontal: 'right'
+            horizontal: 'center'
           }}
         >
-          <Typography style={{ padding: 10 }}>
+          <Typography style={{ padding: 15 }}>
             juddeylane at gmail dot com
           </Typography>
         </Popover>

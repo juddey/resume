@@ -5,7 +5,8 @@ exports[`renders to snapshot 1`] = `
   <p
     className="MuiTypography-root-1 MuiTypography-body1-10"
   >
-    Bachelor of Management Studies, University of Waikato, New Zealand 
+    Bachelor of Management Studies, University of Waikato, New Zealand
+     
   </p>
 </div>
 `;

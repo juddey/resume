@@ -50,7 +50,6 @@ exports[`renders to snapshot 1`] = `
               }
             >
               <div />
-              <div />
             </div>
             <button
               className="MuiButtonBase-root-68 MuiIconButton-root-62"

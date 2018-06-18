@@ -1,18 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders to snapshot 1`] = `
-<div
-  className="MuiPaper-root-1 MuiPaper-elevation4-7 MuiPaper-rounded-2"
+<p
+  className="MuiTypography-root-1 MuiTypography-body1-10"
   style={
     Object {
-      "backgroundColor": "#AAAAAA",
+      "color": "black",
+      "maxWidth": "550px",
+      "textAlign": "center",
     }
   }
 >
-  <p
-    className="MuiTypography-root-28 MuiTypography-body1-37"
-  >
-    Reskilled in web and mobile development from a ERP software implementation career, I'm looking for remote-based short to mid term contracts. Rates negotiable.
-  </p>
-</div>
+  Reskilled in web and mobile development from a ERP software implementation career, I'm looking for remote-based short to mid term contracts. Rates negotiable.
+</p>
 `;

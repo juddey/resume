@@ -24,7 +24,7 @@ exports[`renders to snapshot 1`] = `
     >
       <svg
         className="mdi-icon "
-        fill="#000"
+        fill="white"
         height={24}
         viewBox="0 0 24 24"
         width={24}
@@ -60,7 +60,7 @@ exports[`renders to snapshot 1`] = `
     >
       <svg
         className="mdi-icon "
-        fill="#000"
+        fill="white"
         height={24}
         viewBox="0 0 24 24"
         width={24}
@@ -96,7 +96,7 @@ exports[`renders to snapshot 1`] = `
     >
       <svg
         className="mdi-icon "
-        fill="#000"
+        fill="white"
         height={24}
         viewBox="0 0 24 24"
         width={24}

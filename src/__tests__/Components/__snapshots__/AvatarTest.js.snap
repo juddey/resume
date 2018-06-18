@@ -6,8 +6,9 @@ exports[`renders to snapshot 1`] = `
     className="MuiAvatar-root-1"
     style={
       Object {
-        "height": 60,
-        "width": 60,
+        "border": "1px solid black",
+        "height": 70,
+        "width": 70,
       }
     }
   >
