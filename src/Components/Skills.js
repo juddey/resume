@@ -3,6 +3,7 @@ import LinearProgress from '@material-ui/core/LinearProgress'
 import Typography from '@material-ui/core/Typography'
 import Grid from '@material-ui/core/Grid'
 import { withStyles } from '@material-ui/core'
+import data from '../data/Skill'
 
 // TODO: Can we put this object in its own file?
 const styles = theme => ({
@@ -17,15 +18,6 @@ const styles = theme => ({
     backgroundColor: '#012C4C'
   }
 })
-
-const data = [
-  { label: 'React Native', level: 85 },
-  { label: 'React', level: 70 },
-  { label: 'HTML', level: 45 },
-  { label: 'JavaScript', level: 65 },
-  { label: 'Ruby', level: 80 },
-  { label: 'Elixir', level: 70 }
-]
 
 function Skills (props) {
   const { classes } = props
