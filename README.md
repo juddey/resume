@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/Images/avatar.png" width="150px" />
+  <img src="https://github.com/juddey/resume/blob/master/src/Images/avatar.jpg" width="150px" />
 </p>
 
 # Justin Lane
