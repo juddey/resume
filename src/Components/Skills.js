@@ -4,6 +4,7 @@ import Typography from '@material-ui/core/Typography'
 import Grid from '@material-ui/core/Grid'
 import { withStyles } from '@material-ui/core'
 import data from '../data/Skill'
+import { Colors } from '../Themes'
 
 // TODO: Can we put this object in its own file?
 const styles = theme => ({
@@ -12,10 +13,10 @@ const styles = theme => ({
     alignItems: 'center'
   },
   colorPrimary: {
-    backgroundColor: '#F8F8F8'
+    backgroundColor: Colors.lightGray
   },
   barColorPrimary: {
-    backgroundColor: '#012C4C'
+    backgroundColor: Colors.background
   }
 })
 

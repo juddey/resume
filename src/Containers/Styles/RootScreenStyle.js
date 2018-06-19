@@ -14,6 +14,9 @@ const styles = {
     flexDirection: 'column',
     backgroundColor: Colors.background,
     height: screenHeight * 0.67
+  },
+  resumeTitleWrapper: {
+    marginBottom: '10px'
   }
 }
 export default styles

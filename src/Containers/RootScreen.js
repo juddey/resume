@@ -7,9 +7,10 @@ import {
   ResumeTitle,
   SectionTitle,
   Skills,
-  ExperienceCard
+  ExperienceCard,
+  PositionTitle
 } from '../Components'
-import { Grid, Typography } from '@material-ui/core'
+import { Grid } from '@material-ui/core'
 import ExperienceData from '../data/Experience'
 import { ResumeSection } from '../Containers'
 import { Colors } from '../Themes'
@@ -20,19 +21,10 @@ function RootScreen () {
     <div>
       <Grid container style={styles.container}>
         <div style={styles.heading}>
-          <div style={{ marginBottom: '10px' }}>
+          <div style={styles.resumeTitleWrapper}>
             <ResumeTitle />
           </div>
-          <Typography
-            variant='subheading'
-            style={{
-              letterSpacing: '1px',
-              color: 'white',
-              marginBottom: '10px'
-            }}
-          >
-            software developer
-          </Typography>
+          <PositionTitle />
           <IconBar />
         </div>
         <ResumeSection

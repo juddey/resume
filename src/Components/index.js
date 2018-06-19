@@ -1,4 +1,5 @@
 // Component Index
+import PositionTitle from './PositionTitle'
 import ExperienceCard from './ExperienceCard'
 import Interests from './Interests'
 import About from './About'
@@ -13,6 +14,7 @@ import Header from './Header'
 
 // prettier-ignore
 export {
+  PositionTitle,
   ExperienceCard,
   Interests,
   About,
