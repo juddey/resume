@@ -1,5 +1,3 @@
-// import { Colors } from '../../Themes/'
-
 const styles = {
   container: {
     display: 'flex',
