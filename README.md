@@ -4,10 +4,9 @@
 
 # Justin Lane
 
-My Resume, built in React.
+My Resume, built in React, to prove that @juddey can code. Also a good test for my generator template called [kryptonite](https://github.com/juddey/ignite-kryptonite) which I wrote for [ignite](https://github.com/infinitered/ignite). (see what I did there) 
 
-## Why?
-Well, to prove that @juddey can code, and also to test [kryptonite](https://github.com/juddey/ignite-kryptonite) on a real example. Software is never software until its in the wild.
+Software is never software until its in the wild.
 
 ## Install
 Because we're `create-react-app` based, you can just:
@@ -17,4 +16,4 @@ Because we're `create-react-app` based, you can just:
 4. point your browser at `localhost:3000`.
 
 
-This way to the [FAQ](./FAQ.md).
+This way to the [FAQ](./FAQ.md). :point_right:
