@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders to snapshot 1`] = `
+<div
+  className="MuiGrid-container-1 MuiGrid-justify-xs-center-18"
+  style={
+    Object {
+      "backgroundColor": "#012C4C",
+    }
+  }
+>
+  <div
+    className="MuiGrid-item-2"
+  />
+  <div
+    className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-10-50 MuiGrid-grid-md-8-61 MuiGrid-grid-lg-6-72 MuiGrid-grid-xl-4-83"
+    style={
+      Object {
+        "paddingBottom": "50px",
+        "paddingTop": "50px",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "center",
+          "marginBottom": "30px",
+        }
+      }
+    />
+  </div>
+  <div
+    className="MuiGrid-item-2"
+  />
+</div>
+`;

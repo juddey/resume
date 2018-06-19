@@ -1,5 +1,4 @@
 // Storybooks Index
-import './ExperienceSection.story.js'
 import './ExperienceCard.story.js'
 import './Interests.story.js'
 import './About.story.js'
@@ -10,3 +9,4 @@ import './Avatar.story.js'
 import './ResumeTitle.story.js'
 import './IconBar.story.js'
 import './SectionTitle.story.js'
+import './ResumeSection.story.js'

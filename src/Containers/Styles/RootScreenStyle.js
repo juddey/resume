@@ -1,34 +1,19 @@
-// import { Colors } from '../../Themes/'
+import { Colors } from '../../Themes/'
+
+const screenHeight = window.innerHeight
 
 const styles = {
-  heading: {
-    minWidth: '400',
-    display: 'flex',
-    flexDirection: 'column',
-    marginBottom: '5px',
-    borderBottom: '5px solid black'
-  },
-  experience: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginBottom: '5px',
-    marginTop: '5px'
-  },
-  section: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    marginBottom: '5px'
-  },
-  sectionTitle: {
-    display: 'flex',
-    justifyContent: 'center',
-    marginBottom: '30px'
-  },
   container: {
-    flex: 1
+    flexDirection: 'column'
+  },
+  heading: {
+    display: 'flex',
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'column',
+    backgroundColor: Colors.background,
+    height: screenHeight * 0.67
   }
 }
 export default styles

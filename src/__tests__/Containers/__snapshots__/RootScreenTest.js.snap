@@ -20,7 +20,6 @@ exports[`renders to snapshot 1`] = `
           "flexDirection": "column",
           "height": 514.5600000000001,
           "justifyContent": "center",
-          "width": "100%",
         }
       }
     >
@@ -169,73 +168,70 @@ exports[`renders to snapshot 1`] = `
     </div>
     <div
       className="MuiGrid-container-1 MuiGrid-justify-xs-center-18"
+      style={
+        Object {
+          "backgroundColor": "white",
+        }
+      }
     >
       <div
         className="MuiGrid-item-2"
       />
       <div
         className="MuiGrid-item-2 MuiGrid-grid-xs-10-37 MuiGrid-grid-sm-10-50 MuiGrid-grid-md-8-61 MuiGrid-grid-lg-6-72 MuiGrid-grid-xl-4-83"
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flex": 1,
+            "flexDirection": "column",
+            "paddingBottom": "50px",
+            "paddingTop": "50px",
+          }
+        }
       >
         <div
           style={
             Object {
-              "alignItems": "center",
               "display": "flex",
-              "flex": 1,
-              "flexDirection": "column",
+              "justifyContent": "center",
+              "marginBottom": "30px",
             }
           }
         >
-          <div
-            style={
-              Object {
-                "marginBottom": 10,
-                "paddingTop": 70,
-              }
-            }
-          >
-            <div>
-              <div
-                className="MuiAvatar-root-135"
-                style={
-                  Object {
-                    "border": "1px solid black",
-                    "height": 70,
-                    "width": 70,
-                  }
-                }
-              >
-                <img
-                  alt="juddey"
-                  className="MuiAvatar-img-137"
-                  sizes={undefined}
-                  src="avatar.jpg"
-                  srcSet={undefined}
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            style={
-              Object {
-                "paddingBottom": 70,
-              }
-            }
-          >
-            <p
-              className="MuiTypography-root-92 MuiTypography-body1-101"
+          <div>
+            <div
+              className="MuiAvatar-root-135"
               style={
                 Object {
-                  "color": "black",
-                  "maxWidth": "550px",
-                  "textAlign": "center",
+                  "border": "1px solid black",
+                  "height": 70,
+                  "width": 70,
                 }
               }
             >
-              Reskilled in web and mobile development from a ERP software implementation career, I'm looking for remote-based short to mid term contracts. Rates negotiable.
-            </p>
+              <img
+                alt="juddey"
+                className="MuiAvatar-img-137"
+                sizes={undefined}
+                src="avatar.jpg"
+                srcSet={undefined}
+              />
+            </div>
           </div>
         </div>
+        <p
+          className="MuiTypography-root-92 MuiTypography-body1-101"
+          style={
+            Object {
+              "color": "black",
+              "maxWidth": "550px",
+              "textAlign": "center",
+            }
+          }
+        >
+          Reskilled in web and mobile development from a ERP software implementation career, I'm looking for remote-based short to mid term contracts. Rates negotiable.
+        </p>
       </div>
       <div
         className="MuiGrid-item-2"
@@ -247,19 +243,18 @@ exports[`renders to snapshot 1`] = `
     style={
       Object {
         "backgroundColor": "#F8F8F8",
-        "paddingBottom": 50,
-        "paddingTop": 50,
       }
     }
   >
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-27"
+      className="MuiGrid-item-2"
     />
     <div
       className="MuiGrid-item-2 MuiGrid-grid-xs-11-38 MuiGrid-grid-sm-10-50 MuiGrid-grid-md-8-61 MuiGrid-grid-lg-6-72 MuiGrid-grid-xl-4-83"
       style={
         Object {
-          "flexDirection": "column",
+          "paddingBottom": "50px",
+          "paddingTop": "50px",
         }
       }
     >
@@ -619,15 +614,14 @@ exports[`renders to snapshot 1`] = `
       </div>
     </div>
     <div
-      className="MuiGrid-item-2 MuiGrid-grid-xs-27"
+      className="MuiGrid-item-2"
     />
   </div>
   <div
     className="MuiGrid-container-1 MuiGrid-justify-xs-center-18"
     style={
       Object {
-        "paddingBottom": 50,
-        "paddingTop": 50,
+        "backgroundColor": "white",
       }
     }
   >
@@ -638,7 +632,8 @@ exports[`renders to snapshot 1`] = `
       className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-10-50 MuiGrid-grid-md-8-61 MuiGrid-grid-lg-6-72 MuiGrid-grid-xl-4-83"
       style={
         Object {
-          "flexDirection": "column",
+          "paddingBottom": "50px",
+          "paddingTop": "50px",
         }
       }
     >
@@ -858,6 +853,11 @@ exports[`renders to snapshot 1`] = `
   </div>
   <div
     className="MuiGrid-container-1 MuiGrid-justify-xs-center-18"
+    style={
+      Object {
+        "backgroundColor": "#012C4C",
+      }
+    }
   >
     <div
       className="MuiGrid-item-2"
@@ -866,8 +866,6 @@ exports[`renders to snapshot 1`] = `
       className="MuiGrid-item-2 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-10-50 MuiGrid-grid-md-8-61 MuiGrid-grid-lg-6-72 MuiGrid-grid-xl-4-83"
       style={
         Object {
-          "backgroundColor": "#012C4C",
-          "flexDirection": "column",
           "paddingBottom": "50px",
           "paddingTop": "50px",
         }

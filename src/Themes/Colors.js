@@ -1,5 +1,6 @@
 const Colors = {
-  background: 'white',
+  background: '#012C4C',
+  lightGray: '#F8F8F8',
   clear: 'rgba(0,0,0,0)',
   transparent: 'rgba(0,0,0,0)',
   silver: '#F7F7F7',
