@@ -2,7 +2,6 @@
 
 const styles = {
   container: {
-    fontFamily: 'Roboto',
     fontColor: 'white'
   }
 }

@@ -36,7 +36,9 @@ function RootScreen () {
             display: 'flex',
             flex: 1,
             alignItems: 'center',
-            flexDirection: 'column'
+            flexDirection: 'column',
+            paddingTop: '150px',
+            paddingBottom: '150px'
           }}
         />
       </Grid>
@@ -60,6 +62,10 @@ function RootScreen () {
         title={<SectionTitle title='Skills' />}
         section={<Skills />}
         backgroundColor={Colors.white}
+        middleGrid={{
+          paddingTop: '100px',
+          paddingBottom: '100px'
+        }}
       />
       <ResumeSection
         title={<SectionTitle title='Interests' color='white' />}
