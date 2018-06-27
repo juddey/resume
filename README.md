@@ -17,3 +17,6 @@ Because we're `create-react-app` based, you can just:
 
 
 This way to the [FAQ](./FAQ.md). :point_right:
+
+## License
+MIT © Justin Lane 2018
