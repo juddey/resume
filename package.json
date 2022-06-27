@@ -8,7 +8,7 @@
     "@material-ui/icons": "^1.1.0",
     "apisauce": "^0.15.1",
     "localforage": "^1.7.1",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.21",
     "mdi-react": "^3.4.0",
     "prop-types": "^15.6.1",
     "ramda": "^0.25.0",
